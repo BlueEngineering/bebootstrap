@@ -12,6 +12,6 @@ $messages = array();
  * @author Lee Miller
  */
 $messages['en'] = array(
-	'skinname-bootstrapskin' => "bootstrapskin",
+	'skinname-bootstrapskin' => "bebootstrapskin",
 	'bootstrapskin-desc' => "Bootstrap styled skin for Mediawiki",
 );

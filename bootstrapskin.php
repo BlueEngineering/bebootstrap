@@ -15,7 +15,7 @@ if( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki packag
  
 $wgExtensionCredits['skin'][] = array(
         'path' => __FILE__,
-        'name' => 'BootStrapSkin',
+        'name' => 'BEBootStrapSkin',
         'url' => "http://www.mediawikibootstrapskin.co.uk/",
         'author' => 'Lee Miller and [http://www.vanhamel.nl/wiki/Main_page Dennis Groenewegen]',
         'descriptionmsg' => 'bootstrapskin-desc',
