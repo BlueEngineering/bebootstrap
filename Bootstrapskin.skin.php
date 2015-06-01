@@ -310,7 +310,7 @@ class StrappingTemplate extends BaseTemplate {
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
       </li><!-- end list elements -->
-	  <li class="dropdown hadron-fw"><a href="index.php/Help:Start">Help Center</a></li><!-- end list elements -->
+	  <li class="dropdown hadron-fw"><a href="Help:Start">Help Center</a></li><!-- end list elements -->
 </div><!-- end #navbar-collapse-1 -->           
 </nav>
        
