@@ -275,6 +275,9 @@ class StrappingTemplate extends BaseTemplate {
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
 					</li><!-- end list elements -->
+					
+					<!-- list elements -->
+					<li class="dropdown hadron-fw"><a href="Help:Start">Help Center</a></li><!-- end list elements -->
                     
                     <!-- standard drop down -->
 					<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
@@ -304,14 +307,12 @@ class StrappingTemplate extends BaseTemplate {
                                       <h3 class="title"><i class="fa fa-wrench"></i> Tools</h3>
                                         <ul>
                                         <li aria-haspopup="true"><?php if ( !isset( $portals['TOOLBOX'] ) ) {$this->renderNavigation( array( 'TOOLBOX' ) );?></li>
-                                        </ul>
+                                        <!--/ul-->
                                     </div>
                                 </div><!-- end row -->
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
 					</li><!-- end list elements -->
-					<!-- list elements -->
-					<li class="dropdown hadron-fw"><a href="Help:Start">Help Center</a></li><!-- end list elements -->
 				</ul>
 			</div><!-- end #navbar-collapse-1 -->
 </nav>
@@ -333,9 +334,6 @@ class StrappingTemplate extends BaseTemplate {
       
         ?>
     
-      </div>
-    </div>
-
       <div class="pull-right">
         <?php
           if ($wgSearchPlacement['header']) {
