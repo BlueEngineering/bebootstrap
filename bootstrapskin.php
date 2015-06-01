@@ -9,6 +9,7 @@
  * @file
  * @ingroup Skins
  * @authors Lee Miller
+ * @authors Andre Baier <Andre.Baier@tu-berlin.de>, Tim Jaap <tim.jaap@mailbox.tu-berlin.de>
  */
 
 if( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
