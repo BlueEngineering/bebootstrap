@@ -324,7 +324,7 @@ class StrappingTemplate extends BaseTemplate {
           }
 
           # Sidebar items to display in navbar
-          $this->renderNavigation( array( 'SIDEBARNAV' ) );
+          //$this->renderNavigation( array( 'SIDEBARNAV' ) );
           }
       
         ?>
@@ -335,7 +335,7 @@ class StrappingTemplate extends BaseTemplate {
       <div class="pull-right">
         <?php
           if ($wgSearchPlacement['header']) {
-            //$this->renderNavigation( array( 'SEARCH' ) ); 
+            $this->renderNavigation( array( 'SEARCH' ) ); 
           }
 
           # Personal menu (at the right)
