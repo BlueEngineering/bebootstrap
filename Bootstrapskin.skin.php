@@ -198,7 +198,7 @@ class StrappingTemplate extends BaseTemplate {
             <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left"> 
                 <ul class="nav navbar-nav">
                     <!-- Mega Menu -->
-<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">wikiEvolved! Guides <b class="caret"></b></a>
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">BEMW Menü <b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
@@ -277,7 +277,6 @@ class StrappingTemplate extends BaseTemplate {
       </li><!-- end list elements -->
                     <!-- list elements -->
                     <!-- standard drop down -->
-  <li class="dropdown hadron-fw"><a href="index.php?title=Help_create_wikiEvolved">Help create wikiEvolved!</a></li><!-- end list elements -->
 <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
@@ -311,6 +310,7 @@ class StrappingTemplate extends BaseTemplate {
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
       </li><!-- end list elements -->
+	  <li class="dropdown hadron-fw"><a href="index.php/Help:Start">Help Center</a></li><!-- end list elements -->
 </div><!-- end #navbar-collapse-1 -->           
 </nav>
        
@@ -335,7 +335,7 @@ class StrappingTemplate extends BaseTemplate {
       <div class="pull-right">
         <?php
           if ($wgSearchPlacement['header']) {
-            $this->renderNavigation( array( 'SEARCH' ) ); 
+            //$this->renderNavigation( array( 'SEARCH' ) ); 
           }
 
           # Personal menu (at the right)
