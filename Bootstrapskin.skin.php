@@ -47,7 +47,7 @@ class SkinBootstrap extends SkinTemplate {
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-2992653-31']);
-  _gaq.push(['_setDomainName', 'mediawikibootstrapskin.co.uk']);
+  _gaq.push(['_setDomainName', 'blue-eng.km.tu-berlin.de']);
   _gaq.push(['_setAllowHash', 'false']);
   _gaq.push(['_trackPageview']);
 
@@ -113,8 +113,9 @@ class StrappingTemplate extends BaseTemplate {
     global $wgBootstrapSkinLoginLocation;
     global $wgBootstrapSkinAnonNavbar;
     global $wgBootstrapSkinUseStandardLayout;
-  global $wgBootstrapSkinUseSidebar;
-  global $wgBootStrapSkinSideBar;
+	global $wgBootstrapSkinUseSidebar;
+	global $wgBootStrapSkinSideBar;
+	global $wgTitle;
   
   if (!$wgSearchPlacement) {
       $wgSearchPlacement['header'] = false;
@@ -168,19 +169,17 @@ class StrappingTemplate extends BaseTemplate {
     $this->html( 'headelement' );
 ?>
 
-
-
-  <div class="row">
-      <div class="pull-left">
-      <div class="col-md-12">
-        <div class="headertitle hidden-xs">
-        <h1><a href="http://www.blue-engineering.org/">Blue Engineering</a></h1>
-        </div>
-        <div class="headersubtitle hidden-xs hidden-sm">
-        <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
-        </div>
-      </div>
-      </div>
+	<div class="row">
+		<div class="pull-left">
+			<div class="col-md-12">
+				<div class="headertitle hidden-xs">
+					<h1><a href="Hauptseite">Blue Engineering</a></h1>
+				</div>
+				<div class="headersubtitle hidden-xs hidden-sm">
+					<p><a href="Hauptseite">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
+				</div>
+			</div>
+		</div>
            
   
 
@@ -192,129 +191,119 @@ class StrappingTemplate extends BaseTemplate {
 
 <?php if ( $wgGroupPermissions['*']['edit'] || $wgBootstrapSkinAnonNavbar || $this->data['loggedin'] ) { ?>
 <nav class="navbar navbar-default hadron" role="navigation">
-        <div class="navbar-header home">
-            <button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle"><i class="fa fa-bars"></i></button>
-        </div><!-- end navbar-header --> 
-            <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left">
-                <ul class="nav navbar-nav">
-                    <!-- Mega Menu -->
-					<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">BEMW Menü <b class="caret"></b></a>
-                        <ul class="dropdown-menu fullwidth">
-                            <li class="hadron-content withdesc">
-                                <div class="row">
-                                    <div class="col-sm-2">
-                                        <ul>
-                                        <li><h3 class="title">Guides A - G</h3></li>
-                                        <li><a data-description="" href="index.php?title=Alerts">Alerts</a></li>
-                                        <li><a data-description="" href="index.php?title=Badges">Badges</a></li>
-                                        <li><a data-description="" href="index.php?title=Breadcrumbs">Breadcrumbs</a></li>
-                                        <li><a data-description="" href="index.php?title=Buttons">Buttons</a></li>
-                                        <li><a data-description="" href="index.php?title=Button_dropdown">Button Drop</a></li>
-                                        <li><a data-description="" href="index.php?title=Drp_Menu">Drop Menu</a></li>
-                                        <li><a data-description="" href="index.php?title=Grid_System">Grid System</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <ul>
-                                        <li><h3 class="title">Guides H - P</h3></li>
-                                        <li><a data-description="" href="index.php?title=Helper_Classes">Helper Classes</a></li>
-                                        <li><a data-description="" href="index.php?title=Installing_wikiEvolved">Installation</a></li>
-                                        <li><a data-description="" href="index.php?title=Jumbotron">Jumbotron</a></li>
-                                        <li><a data-description="" href="index.php?title=Labels">Lables</a></li>
-                                        <li><a data-description="" href="index.php?title=Lists">Lists</a></li>
-                                        <li><a data-description="" href="index.php?title=Nav_Bar">Nav Bar</a></li>
-                                        <li><a data-description="" href="index.php?title=Navs">Navs</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <ul>
-                                        <li><h3 class="title">Guides P - W</h3></li>
-                                        <li><a data-description="" href="index.php?title=Pagination">Pagination</a></li>
-                                        <li><a data-description="" href="index.php?title=Panels">Panels</a></li>
-                                        <li><a data-description="" href="index.php?title=Page_Header">Page Header</a></li>
-                                        <li><a data-description="" href="index.php?title=Responsive">Responsive</a></li>
-                                        <li><a data-description="" href="index.php?title=Tables">Tables</a></li>
-                                        <li><a data-description="" href="index.php?title=Typography">Typography</a></li>
-                                        <li><a data-description="" href="index.php?title=Wells">Wells</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <ul>
-                                        <li><h3 class="title">Extra</h3></li>
-                                        <li><a data-description="" href="index.php?title=Font_Awesome">Font Awesome</a></li>
-                                        <li><a data-description="" href="index.php?title=Glyph_Icons">Glyph Icons</a></li>
-                                        <li><a data-description="" href="index.php?title=Extending_wikiEvolved">Extending wE!</a></li>
-                                        <li><a data-description="" href="index.php?title=Adding_Classes">Adding Classes</a></li>
-                                        <li><a data-description="" href="index.php?title=Hadron_Classes">Hadron Classes</a></li>
-                                        <li><a data-description="" href="index.php?title=Adding_Fonts">Adding Fonts</a></li>
-                                        <li><a data-description="" href="index.php?title=Getting_Started">Tips and Tricks!</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <ul>
-                                        <li><h3 class="title">Extensions</h3></li>
-                                        <li><a data-description="" href="index.php?title=Bootstrapskin_Maps">Google Maps</a></li>
-                                        <li><a data-description="" href="index.php?title=Bootstrapskin_Social_Share">Social Sharing</a></li>
-                                        <li><a data-description="" href="index.php?title=Bootstrapskin_Slideshow">Slideshow</a></li>
-                                        <li><a data-description="" href="index.php?title=Bootstrapskin_Tweet">Bootstrapskin Tweet</a></li>
-                                        <li><a data-description="" href="index.php?title=Bootstrapskin_To_The_Top">To The Top</a></li>
-                                        <li><a data-description="" href="index.php?title=Bootstrapskin_Slideshow">Slideshow Extension</a></li>
-                                        <li><a data-description="" href="index.php?title=Bootstrapskin_Youtube">Youtube Extension</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <ul>
-                                        <li><h3 class="title">Site Nav</h3></li>
-                                        <li><a data-description="" href="index.php?title=Special:SpecialContact">Contact</a></li>
-                                        <li><a data-description="" href="index.php?title=About_Hadron">About Hadron</a></li>
-                                        <li><a data-description="" href="index.php?title=wikiEvolved_Blog_Demo">Blog Demo</a></li>
-                                        <li><a data-description="" href="index.php?title=Main_Page">Main Page</a></li>
-                                        </ul>
-                                    </div>
-                                </div><!-- end row -->
-                            </li><!-- end grid demo -->
-                        </ul><!-- end drop down menu -->
-					</li><!-- end list elements -->
-					
-					<!-- list elements -->
-					<li class="dropdown hadron-fw"><a href="Help:Start">Help Center</a></li><!-- end list elements -->
-                    
-                    <!-- standard drop down -->
-					<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
-                        <ul class="dropdown-menu fullwidth">
-                            <li class="hadron-content withdesc">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                      <h3 class="title"><i class="fa fa-book"></i>  Page</h3>
-                                        <ul>
-                                        <li><?php $this->renderNavigation( array( 'EDIT' ) );?></li>
-                                        <li aria-haspopup="true"><?php $this->renderNavigation( array( 'PAGE' ) );?></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                      <h3 class="title"><i class="fa fa-flash"></i> Personal</h3>
-                                        <ul>
-                                        <li aria-haspopup="true"><?php $this->renderNavigation( array( 'PERSONALNAV' ) );?></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                      <h3 class="title"><i class="fa fa-flash"></i> Actions</h3>
-                                        <ul>
-                                        <li aria-haspopup="true"><?php $this->renderNavigation( array( 'ACTIONS' ) );?></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                      <h3 class="title"><i class="fa fa-wrench"></i> Tools</h3>
-                                        <ul>
-                                        <li aria-haspopup="true"><?php if ( !isset( $portals['TOOLBOX'] ) ) {$this->renderNavigation( array( 'TOOLBOX' ) );?></li>
-                                        <!--/ul-->
-                                    </div>
-                                </div><!-- end row -->
-                            </li><!-- end grid demo -->
-                        </ul><!-- end drop down menu -->
-					</li><!-- end list elements -->
+	<!-- start navbar-header -->
+	<div class="navbar-header home">
+		<button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle"><i class="fa fa-bars"></i></button>
+	</div>
+	<!-- end navbar-header -->
+	<!-- start nav -->
+	<div id="defaultmenu" class="navbar-collapse collapse col-md-12 pull-left fullwidth">
+		<ul class="nav navbar-nav fullwidth col-md-12">
+			<!-- Mega Menu -->
+			<!-- start list elements -->
+			<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">BEMW Menü <b class="caret"></b></a>
+				<!-- start drop down menu -->
+				<ul class="dropdown-menu fullwidth">
+					<li class="hadron-content withdesc">
+						<!-- start row -->
+						<div class="row">
+							<div class="col-sm-3">
+								<ul>
+									<li><h3 class="title">Blue Engineering</h3></li>
+									<li><a data-description="" href="Hauptseite">Hauptseite</a></li>
+									<li><a data-description="" href="Grundgedanke">Grundgedanke</a></li>
+									<li><a data-description="" href="Seminar">Seminar</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<ul>
+									<li><h3 class="title">Lokalgruppen</h3></li>
+									<li><a data-description="" href="Berlin%3AStart">Berlin</a></li>
+									<li><a data-description="" href="Hamburg%3AStart">Hamburg</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<ul>
+									<li><h3 class="title">Projekte</h3></li>
+									<li><a data-description="" href="TBE%3AStart">The Blue Engineer</a></li>
+									<li><a data-description="" href="Projekt%3AQuorra">Quorra</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<ul>
+									<li><h3 class="title">Hilfe</h3></li>
+									<li><a data-description="" href="Help%3AStart">Help Center</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- end row -->
+					</li>
 				</ul>
-			</div><!-- end #navbar-collapse-1 -->
+				<!-- end drop down menu -->
+			</li>
+			<!-- end list elements -->
+			
+			<!-- start list elements - standard drop down -->
+			<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
+				<ul class="dropdown-menu fullwidth">
+					<li class="hadron-content withdesc">
+						<!-- start row -->
+						<div class="row">
+							<div class="col-md-3">
+								<h3 class="title"><i class="fa fa-book"></i>  Page</h3>
+								<ul>
+									<li><?php $this->renderNavigation( array( 'EDIT' ) );?></li>
+									<li aria-haspopup="true"><?php $this->renderNavigation( array( 'PAGE' ) );?></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<h3 class="title"><i class="fa fa-flash"></i> Personal</h3>
+								<ul>
+									<li aria-haspopup="true"><?php $this->renderNavigation( array( 'PERSONALNAV' ) );?></li>
+								</ul>
+							</div>
+							<div class="col-sm-3">
+								<h3 class="title"><i class="fa fa-flash"></i> Actions</h3>
+								<ul>
+									<li aria-haspopup="true"><?php $this->renderNavigation( array( 'ACTIONS' ) );?></li>
+								</ul>
+							</div>
+							<!--div class="col-sm-2"-->
+								<!--ul-->
+									<!--li><h3 class="title">Buch erstellen</h3></li-->
+									<!--li><a href="../index.php?title=Spezial:Buch&bookcmd=book_creator&referer=<?php echo $wgTitle ?>">Buch erstellen</a></li-->
+									<!--li><a href="../index.php?Spezial:Buch&bookcmd=render_article&arttitle=<?php echo $wgTitle ?>&writer=rl">Als PDF herunterladen</a></li-->
+									<!--li><a href="../index.php?title=<?php echo $wgTitle ?>&printable=yes">Druckversion</a></li-->
+								<!--/ul-->
+							<!--/div-->
+							<div class="col-sm-3">
+								<h3 class="title"><i class="fa fa-wrench"></i> Tools</h3>
+								<ul>
+									<li aria-haspopup="true"><?php if ( !isset( $portals['TOOLBOX'] ) ) {$this->renderNavigation( array( 'TOOLBOX' ) ); ?></li>
+								</ul>
+							</div>
+						</div>
+						<!-- end row -->
+					</li>
+				</ul>
+			</li>
+			<!-- start list elements - standard drop down -->
+		</ul>
+	</div>
+	<div id="defaultmenu" class="navbar-collapse collapse col-md-12 pull-right fullwidth">
+		<ul>
+			<!-- start search bar -->
+			<li>
+				<ul class="nav navbar-nav fullwidth col-md-10">
+					<li class="hadron-fw">
+						<?php $this->renderNavigation( array( 'SEARCH' ) ); ?>
+					</li>
+				</ul>
+			</li>
+			<!-- end search bar -->
+		</ul>
+	</div>
+	<!-- end nav -->
 </nav>
 	<div>
 		<div>
@@ -542,7 +531,7 @@ class StrappingTemplate extends BaseTemplate {
         $toolTip = Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) );
 ?>               
               <div class="pull-right"> 
-                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 3.5em;"></a></div>
+                  <div class="col-xs-1"><a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 3.5em;"></a></div>
               </div>
 <?php
   }
@@ -614,30 +603,23 @@ class StrappingTemplate extends BaseTemplate {
 
         break;
 
-        case 'TOOLBOX':
-
-          $theMsg = 'toolbox';
-          $theData = array_reverse($this->getToolbox());
-          ?>
-              <div class="grid-container3">
-              <ul>
-                <?php
-                  foreach( $theData as $key => $item ) {
-                    if (preg_match('/specialpages|whatlinkshere/', $key)) {
-                      echo '<li class="divider"></li>';
-                    }
-
-                    echo $this->makeListItem( $key, $item );
-                  }
-                ?>        
-            </ul>
-      </div>
-      
-      </li>
-      
-          </ul>
-
-          </ul>  
+		case 'TOOLBOX':
+			$theMsg = 'toolbox';
+			$theData = array_reverse($this->getToolbox());
+			?>
+			
+			<div class="grid-container3">
+				<ul>
+				<?php
+				foreach( $theData as $key => $item ) {
+					if (preg_match('/specialpages|whatlinkshere/', $key)) {
+						echo '<li class="divider"></li>';
+					}
+					echo $this->makeListItem( $key, $item );
+				}
+				?>
+				</ul>
+			</div>
        
           <?php
         break;
@@ -809,7 +791,19 @@ class StrappingTemplate extends BaseTemplate {
          </ul></ul><?php
         break;
 
+		case 'SEARCH':
+          ?>
+			<div class="input-group has-light hidden-xs hidden-sm">
+            <form class="navbar-search" action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
+              <input id="searchInput" class="form-control" type="search" accesskey="f" title="<?php $this->text('searchtitle'); ?>" placeholder="<?php $this->msg('search'); ?>" name="search" value="<?php echo htmlspecialchars ($this->data['search']); ?>">
+			  <span class="input-group-btn">
+              <?php echo $this->makeSearchButton( 'go', array( 'id' => 'mw-searchButton', 'class' => 'searchButton btn btn-default' ) ); ?>
+			  </span>
+            </form>
+			</div>
 
+          <?php
+        break;
 
         case 'SIDEBAR':
           foreach ( $this->data['sidebar'] as $name => $content ) {
