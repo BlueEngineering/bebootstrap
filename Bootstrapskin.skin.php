@@ -211,7 +211,7 @@ class StrappingTemplate extends BaseTemplate {
 								<ul>
 									<li><h3 class="title">Blue Engineering</h3></li>
 									<li><a data-description="" href="Hauptseite">Hauptseite</a></li>
-									<li><a data-description="" href="Grundgedanke">Grundgedanke</a></li>
+									<li><a data-description="" href="Grundgedanken">Grundgedanken</a></li>
 									<li><a data-description="" href="Seminar">Seminar</a></li>
 								</ul>
 							</div>
