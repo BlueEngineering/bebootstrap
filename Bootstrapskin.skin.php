@@ -210,29 +210,29 @@ class StrappingTemplate extends BaseTemplate {
 							<div class="col-sm-3">
 								<ul>
 									<li><h3 class="title">Blue Engineering</h3></li>
-									<li><a data-description="" href="index.php/Hauptseite">Hauptseite</a></li>
-									<li><a data-description="" href="index.php/Grundgedanke">Grundgedanke</a></li>
-									<li><a data-description="" href="index.php/Seminar">Seminar</a></li>
+									<li><a data-description="" href="Hauptseite">Hauptseite</a></li>
+									<li><a data-description="" href="Grundgedanke">Grundgedanke</a></li>
+									<li><a data-description="" href="Seminar">Seminar</a></li>
 								</ul>
 							</div>
 							<div class="col-sm-3">
 								<ul>
 									<li><h3 class="title">Lokalgruppen</h3></li>
-									<li><a data-description="" href="index.php/Berlin%3AStart">Berlin</a></li>
-									<li><a data-description="" href="index.php/Hamburg%3AStart">Hamburg</a></li>
+									<li><a data-description="" href="Berlin%3AStart">Berlin</a></li>
+									<li><a data-description="" href="Hamburg%3AStart">Hamburg</a></li>
 								</ul>
 							</div>
 							<div class="col-sm-3">
 								<ul>
 									<li><h3 class="title">Projekte</h3></li>
-									<li><a data-description="" href="index.php/TBE%3AStart">The Blue Engineer</a></li>
-									<li><a data-description="" href="index.php/Projekt%3AQuorra">Quorra</a></li>
+									<li><a data-description="" href="TBE%3AStart">The Blue Engineer</a></li>
+									<li><a data-description="" href="Projekt%3AQuorra">Quorra</a></li>
 								</ul>
 							</div>
 							<div class="col-sm-3">
 								<ul>
 									<li><h3 class="title">Hilfe</h3></li>
-									<li><a data-description="" href="index.php/Help%3AStart">Help Center</a></li>
+									<li><a data-description="" href="Help%3AStart">Help Center</a></li>
 								</ul>
 							</div>
 						</div>
