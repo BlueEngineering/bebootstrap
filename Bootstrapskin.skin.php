@@ -169,7 +169,7 @@ class StrappingTemplate extends BaseTemplate {
     $this->html( 'headelement' );
 ?>
 
-	<div class="row">
+	<div class="row hidden-xs hidden-sm">
 		<div class="pull-left">
 			<div class="col-md-12">
 				<div class="headertitle">
@@ -233,6 +233,7 @@ class StrappingTemplate extends BaseTemplate {
 								<ul>
 									<li><h3 class="title">Hilfe</h3></li>
 									<li><a data-description="" href="Help%3AStart">Help Center</a></li>
+									<li><a data-description="" href="Spezial%3ASuche">Suchfunktion</a></li>
 								</ul>
 							</div>
 						</div>
@@ -290,7 +291,7 @@ class StrappingTemplate extends BaseTemplate {
 			<!-- start list elements - standard drop down -->
 		</ul>
 	</div>
-	<div id="defaultmenu" class="navbar-collapse collapse col-xs-12 pull-right fullwidth">
+	<div id="defaultmenu" class="navbar-collapse collapse col-xs-10 pull-right fullwidth">
 		<ul>
 			<!-- start search bar -->
 			<li>
@@ -318,7 +319,7 @@ class StrappingTemplate extends BaseTemplate {
           }
 
           # Sidebar items to display in navbar
-          //$this->renderNavigation( array( 'SIDEBARNAV' ) );
+          //$this->renderNavigation( array( 'SEARCH' ) );
           }
       
         ?>

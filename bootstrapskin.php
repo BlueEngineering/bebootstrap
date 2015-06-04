@@ -16,10 +16,10 @@ if( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki packag
  
 $wgExtensionCredits['skin'][] = array(
         'path' => __FILE__,
-        'name' => 'BEBootStrapSkin',
-        'url' => "http://www.mediawikibootstrapskin.co.uk/",
-        'author' => 'Lee Miller and [http://www.vanhamel.nl/wiki/Main_page Dennis Groenewegen]',
-        'descriptionmsg' => 'bootstrapskin-desc',
+        'name' => 'Blue Engineering BootStrapSkin Version',
+        'url' => "http://blue-eng.km.tu-berlin.de",
+        'author' => 'André Baier and Tim Jaap',
+        'descriptionmsg' => 'Individualised Bootstrap Skin for mediaWiki based on Hadron by wikiEnvolved!',
 		'version' => '1.0.45',
 );
 
@@ -29,18 +29,18 @@ $wgExtensionMessagesFiles['SkinBootstrap'] = dirname(__FILE__).'/Bootstrapskin.i
  
 $wgResourceModules['skins.bootstrapskin'] = array(
         'styles' => array(
-		'bebootstrap/bootstrap/css/bootstrap.css' => array( 'media' => 'screen' ),
-		'bebootstrap/bootstrap/css/bootstrap.css.map' => array( 'media' => 'screen' ),
-                'bebootstrap/screen.css' => array( 'media' => 'screen' ),
-                'bebootstrap/theme.css' => array( 'media' => 'screen' ),
-		'bebootstrap/bootstrap/css/docs.css' => array( 'media' => 'screen' ),
-                'bebootstrap/bootstrap/awesome/css/font-awesome.css' => array( 'media' => 'screen' ),				
+		'bootstrap/bootstrap/css/bootstrap.css'				=> array( 'media' => 'screen' ),
+		'bootstrap/bootstrap/css/bootstrap.css.map'			=> array( 'media' => 'screen' ),
+		'bootstrap/screen.css'								=> array( 'media' => 'screen' ),
+		'bootstrap/theme.css'								=> array( 'media' => 'screen' ),
+		'bootstrap/bootstrap/css/docs.css'					=> array( 'media' => 'screen' ),
+		'bootstrap/bootstrap/awesome/css/font-awesome.css'	=> array( 'media' => 'screen' ),				
 	),
 
 	'scripts' => array(
-	    'bebootstrap/bootstrap/js/jquery.js',
-            'bebootstrap/bootstrap/js/bootstrap.js',
-	    'bebootstrap/skin.js',
+	    'bootstrap/bootstrap/js/jquery.js',
+		'bootstrap/bootstrap/js/bootstrap.js',
+	    'bootstrap/skin.js',
 	),	
         'remoteBasePath' => &$GLOBALS['wgStylePath'],
         'localBasePath' => &$GLOBALS['wgStyleDirectory'],
