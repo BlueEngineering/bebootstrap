@@ -172,10 +172,10 @@ class StrappingTemplate extends BaseTemplate {
 	<div class="row">
 		<div class="pull-left">
 			<div class="col-md-12">
-				<div class="headertitle hidden-xs">
+				<div class="headertitle">
 					<h1><a href="Hauptseite">Blue Engineering</a></h1>
 				</div>
-				<div class="headersubtitle hidden-xs hidden-sm">
+				<div class="headersubtitle">
 					<p><a href="Hauptseite">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
 				</div>
 			</div>
@@ -290,11 +290,11 @@ class StrappingTemplate extends BaseTemplate {
 			<!-- start list elements - standard drop down -->
 		</ul>
 	</div>
-	<div id="defaultmenu" class="navbar-collapse collapse col-md-12 pull-right fullwidth">
+	<div id="defaultmenu" class="navbar-collapse collapse col-xs-12 pull-right fullwidth">
 		<ul>
 			<!-- start search bar -->
 			<li>
-				<ul class="nav navbar-nav fullwidth col-md-10">
+				<ul class="nav navbar-nav fullwidth col-xs-10">
 					<li class="hadron-fw">
 						<?php $this->renderNavigation( array( 'SEARCH' ) ); ?>
 					</li>
