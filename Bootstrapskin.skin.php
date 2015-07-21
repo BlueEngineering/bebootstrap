@@ -18,7 +18,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
  */
 class SkinBootstrap extends SkinTemplate {
 
-  var $skinname = 'bebootstrapskin', $stylename = 'bebootstrapskin',
+  var $skinname = 'bebootstrapskin', $stylename = 'bootstrapskin',
     $template = 'StrappingTemplate', $useHeadElement = true;
 
   /**
@@ -113,9 +113,9 @@ class StrappingTemplate extends BaseTemplate {
     global $wgBootstrapSkinLoginLocation;
     global $wgBootstrapSkinAnonNavbar;
     global $wgBootstrapSkinUseStandardLayout;
-	global $wgBootstrapSkinUseSidebar;
-	global $wgBootStrapSkinSideBar;
-	global $wgTitle;
+    global $wgBootstrapSkinUseSidebar;
+    global $wgBootStrapSkinSideBar;
+    global $wgTitle;
   
   if (!$wgSearchPlacement) {
       $wgSearchPlacement['header'] = false;
@@ -169,19 +169,17 @@ class StrappingTemplate extends BaseTemplate {
     $this->html( 'headelement' );
 ?>
 
-	<div class="row hidden-xs hidden-sm">
-		<div class="pull-left">
-			<div class="col-md-12">
-				<div class="headertitle">
-					<h1><a href="Hauptseite">Blue Engineering</a></h1>
-				</div>
-				<div class="headersubtitle">
-					<p><a href="Hauptseite">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
-				</div>
-			</div>
-		</div>
-           
-  
+  <div class="row">
+      <div class="pull-left">
+      <div class="col-md-12">
+        <div class="headertitle hidden-xs">
+        <h1><a href="http://www.blue-engineering.org/">Blue Engineering</a></h1>
+        </div>
+        <div class="headersubtitle hidden-xs hidden-sm">
+        <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
+        </div>
+      </div>
+      </div>  
 
       <?php
       if ( $wgBootstrapSkinLogoLocation == 'bodycontent' ) {
@@ -191,123 +189,163 @@ class StrappingTemplate extends BaseTemplate {
 
 <?php if ( $wgGroupPermissions['*']['edit'] || $wgBootstrapSkinAnonNavbar || $this->data['loggedin'] ) { ?>
 <nav class="navbar navbar-default hadron" role="navigation">
-	<!-- start navbar-header -->
-	<div class="navbar-header home">
-		<button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle"><i class="fa fa-bars"></i></button>
-	</div>
-	<!-- end navbar-header -->
-	<!-- start nav -->
-	<div id="defaultmenu" class="navbar-collapse collapse col-md-12 pull-left fullwidth">
-		<ul class="nav navbar-nav fullwidth col-md-12">
-			<!-- Mega Menu -->
-			<!-- start list elements -->
-			<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Menü <b class="caret"></b></a>
-				<!-- start drop down menu -->
-				<ul class="dropdown-menu fullwidth">
-					<li class="hadron-content withdesc">
-						<!-- start row -->
-						<div class="row">
-							<div class="col-sm-3">
-								<ul>
-									<li><h3 class="title">Blue Engineering</h3></li>
-									<li><a data-description="" href="Hauptseite">Hauptseite</a></li>
-									<li><a data-description="" href="Grundgedanken">Grundgedanken</a></li>
-									<li><a data-description="" href="Seminar">Seminar</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-3">
-								<ul>
-									<li><h3 class="title">Lokalgruppen</h3></li>
-									<li><a data-description="" href="Berlin%3AStart">Berlin</a></li>
-									<li><a data-description="" href="Hamburg%3AStart">Hamburg</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-3">
-								<ul>
-									<li><h3 class="title">Projekte</h3></li>
-									<li><a data-description="" href="TBE%3AStart">The Blue Engineer</a></li>
-									<li><a data-description="" href="Projekt%3AQuorra">Quorra</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-3">
-								<ul>
-									<li><h3 class="title">Hilfe</h3></li>
-									<li><a data-description="" href="Help%3AStart">Help Center</a></li>
-									<li><a data-description="" href="Spezial%3ASuche">Suchfunktion</a></li>
-								</ul>
-							</div>
-						</div>
-						<!-- end row -->
-					</li>
-				</ul>
-				<!-- end drop down menu -->
-			</li>
-			<!-- end list elements -->
-			
-			<!-- start list elements - standard drop down -->
-			<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
-				<ul class="dropdown-menu fullwidth">
-					<li class="hadron-content withdesc">
-						<!-- start row -->
-						<div class="row">
-							<div class="col-md-3">
-								<h3 class="title"><i class="fa fa-book"></i>  Page</h3>
-								<ul>
-									<li><?php $this->renderNavigation( array( 'EDIT' ) );?></li>
-									<li aria-haspopup="true"><?php $this->renderNavigation( array( 'PAGE' ) );?></li>
-								</ul>
-							</div>
-							<div class="col-sm-3">
-								<h3 class="title"><i class="fa fa-flash"></i> Personal</h3>
-								<ul>
-									<li aria-haspopup="true"><?php $this->renderNavigation( array( 'PERSONALNAV' ) );?></li>
-								</ul>
-							</div>
-							<div class="col-sm-3">
-								<h3 class="title"><i class="fa fa-flash"></i> Actions</h3>
-								<ul>
-									<li aria-haspopup="true"><?php $this->renderNavigation( array( 'ACTIONS' ) );?></li>
-								</ul>
-							</div>
-							<!--div class="col-sm-2"-->
-								<!--ul-->
-									<!--li><h3 class="title">Buch erstellen</h3></li-->
-									<!--li><a href="../index.php?title=Spezial:Buch&bookcmd=book_creator&referer=<?php echo $wgTitle ?>">Buch erstellen</a></li-->
-									<!--li><a href="../index.php?Spezial:Buch&bookcmd=render_article&arttitle=<?php echo $wgTitle ?>&writer=rl">Als PDF herunterladen</a></li-->
-									<!--li><a href="../index.php?title=<?php echo $wgTitle ?>&printable=yes">Druckversion</a></li-->
-								<!--/ul-->
-							<!--/div-->
-							<div class="col-sm-3">
-								<h3 class="title"><i class="fa fa-wrench"></i> Tools</h3>
-								<ul>
-									<li aria-haspopup="true"><?php if ( !isset( $portals['TOOLBOX'] ) ) {$this->renderNavigation( array( 'TOOLBOX' ) ); ?></li>
-								</ul>
-							</div>
-						</div>
-						<!-- end row -->
-					</li>
-				</ul>
-			</li>
-			<!-- start list elements - standard drop down -->
-		</ul>
-	</div>
-	<div id="defaultmenu" class="navbar-collapse collapse col-xs-10 pull-right fullwidth">
-		<ul>
-			<!-- start search bar -->
-			<li>
-				<ul class="nav navbar-nav fullwidth col-xs-10">
-					<li class="hadron-fw">
-						<?php $this->renderNavigation( array( 'SEARCH' ) ); ?>
-					</li>
-				</ul>
-			</li>
-			<!-- end search bar -->
-		</ul>
-	</div>
-	<!-- end nav -->
+        <div class="navbar-header home">
+            <button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle"><i class="fa fa-bars"></i></button>
+        </div><!-- end navbar-header --> 
+            <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left"> 
+                <ul class="nav navbar-nav">
+                    <!-- Mega Menu -->
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Grundgedanken <b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Blue Engineering</h3></li>
+                                        <li><a data-description="" href="index.php?title=Alerts">Einzelpersonen</a></li>
+                                        <li><a data-description="" href="index.php?title=Badges">Gruppe</a></li>
+                                        <li><a data-description="" href="index.php?title=Breadcrumbs">Hochschulen</a></li>
+                                        <li><a data-description="" href="index.php?title=Buttons">Betriebe</a></li>
+                                        <li><a data-description="" href="index.php?title=Button_dropdown">Button Drop</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Themen</h3></li>
+                                        <li><a data-description="" href="index.php?title=Helper_Classes">Technik</a></li>
+                                        <li><a data-description="" href="index.php?title=Installing_wikiEvolved">Natur</a></li>
+                                        <li><a data-description="" href="index.php?title=Jumbotron">Individuen</a></li>
+                                        <li><a data-description="" href="index.php?title=Labels">Gesellschaft</a></li>
+                                        <li><a data-description="" href="index.php?title=Lists">Demokratie</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Vor Ort</h3></li>
+                                        <li><a data-description="" href="index.php?title=Pagination">Berlin</a></li>
+                                        <li><a data-description="" href="index.php?title=Panels">Hamburg</a></li>
+                                        <li><a data-description="" href="index.php?title=Page_Header">Deine Stadt</a></li>
+                                        <li><a data-description="" href="index.php?title=Responsive">Meine Stadt</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Extra</h3></li>
+                                        <li><a data-description="" href="index.php?title=Font_Awesome">Font Awesome</a></li>
+                                        <li><a data-description="" href="index.php?title=Glyph_Icons">Glyph Icons</a></li>
+                                        <li><a data-description="" href="index.php?title=Extending_wikiEvolved">Extending wE!</a></li>
+                                        <li><a data-description="" href="index.php?title=Adding_Classes">Adding Classes</a></li>
+                                        <li><a data-description="" href="index.php?title=Hadron_Classes">Hadron Classes</a></li>
+                                        <li><a data-description="" href="index.php?title=Adding_Fonts">Adding Fonts</a></li>
+                                        <li><a data-description="" href="index.php?title=Getting_Started">Tips and Tricks!</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu -->
+      </li><!-- end list elements -->
+                    <!-- list elements -->
+                    <!-- standard drop down -->
+  <li class="dropdown hadron-fw"><a href="index.php?title=Help_create_wikiEvolved">Seminare</a></li>
+  <li class="dropdown hadron-fw"><a href="index.php?title=Help_create_wikiEvolved">Betriebe</a></li>
+  <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Vor Ort<b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Blue Engineering</h3></li>
+                                        <li><a data-description="" href="index.php?title=Alerts">Einzelpersonen</a></li>
+                                        <li><a data-description="" href="index.php?title=Badges">Gruppe</a></li>
+                                        <li><a data-description="" href="index.php?title=Breadcrumbs">Hochschulen</a></li>
+                                        <li><a data-description="" href="index.php?title=Buttons">Betriebe</a></li>
+                                        <li><a data-description="" href="index.php?title=Button_dropdown">Button Drop</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Themen</h3></li>
+                                        <li><a data-description="" href="index.php?title=Helper_Classes">Technik</a></li>
+                                        <li><a data-description="" href="index.php?title=Installing_wikiEvolved">Natur</a></li>
+                                        <li><a data-description="" href="index.php?title=Jumbotron">Individuen</a></li>
+                                        <li><a data-description="" href="index.php?title=Labels">Gesellschaft</a></li>
+                                        <li><a data-description="" href="index.php?title=Lists">Demokratie</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Vor Ort</h3></li>
+                                        <li><a data-description="" href="index.php?title=Pagination">Berlin</a></li>
+                                        <li><a data-description="" href="index.php?title=Panels">Hamburg</a></li>
+                                        <li><a data-description="" href="index.php?title=Page_Header">Deine Stadt</a></li>
+                                        <li><a data-description="" href="index.php?title=Responsive">Meine Stadt</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Extra</h3></li>
+                                        <li><a data-description="" href="index.php?title=Font_Awesome">Font Awesome</a></li>
+                                        <li><a data-description="" href="index.php?title=Glyph_Icons">Glyph Icons</a></li>
+                                        <li><a data-description="" href="index.php?title=Extending_wikiEvolved">Extending wE!</a></li>
+                                        <li><a data-description="" href="index.php?title=Adding_Classes">Adding Classes</a></li>
+                                        <li><a data-description="" href="index.php?title=Hadron_Classes">Hadron Classes</a></li>
+                                        <li><a data-description="" href="index.php?title=Adding_Fonts">Adding Fonts</a></li>
+                                        <li><a data-description="" href="index.php?title=Getting_Started">Tips and Tricks!</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu -->
+      </li><!-- end list elements -->
+  <!-- end list elements -->
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                      <h3 class="title"><i class="fa fa-book"></i>  Page</h3>
+                                        <ul>
+                                        <li><?php $this->renderNavigation( array( 'EDIT' ) );?></li>
+                                        <li aria-haspopup="true"><?php $this->renderNavigation( array( 'PAGE' ) );?></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                      <h3 class="title"><i class="fa fa-flash"></i> Personal</h3>
+                                        <ul>
+                                        <li aria-haspopup="true"><?php $this->renderNavigation( array( 'PERSONALNAV' ) );?></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                      <h3 class="title"><i class="fa fa-flash"></i> Actions</h3>
+                                        <ul>
+                                        <li aria-haspopup="true"><?php $this->renderNavigation( array( 'ACTIONS' ) );?></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                      <h3 class="title"><i class="fa fa-wrench"></i> Tools</h3>
+                                        <ul>
+                                        <li aria-haspopup="true"><?php if ( !isset( $portals['TOOLBOX'] ) ) {$this->renderNavigation( array( 'TOOLBOX' ) );?></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu -->
+      </li><!-- end list elements -->
+      <div id="defaultmenu" class="navbar-collapse collapse col-xs-10 pull-right fullwidth">
+    <ul>
+      <!-- start search bar -->
+      <li>
+        <ul class="nav navbar-nav fullwidth col-xs-10">
+          <li class="hadron-fw">
+            <?php $this->renderNavigation( array( 'SEARCH' ) ); ?>
+          </li>
+        </ul>
+      </li>
+      <!-- end search bar -->
+    </ul>
+  </div>
+</div><!-- end #navbar-collapse-1 -->           
 </nav>
-	<div>
-		<div>
        
         <?php
           if ( $wgBootstrapSkinLogoLocation == 'navbar' ) {
@@ -320,10 +358,14 @@ class StrappingTemplate extends BaseTemplate {
 
           # Sidebar items to display in navbar
           //$this->renderNavigation( array( 'SEARCH' ) );
+          //$this->renderNavigation( array( 'SIDEBARNAV' ) );
           }
       
         ?>
     
+      </div>
+    </div>
+
       <div class="pull-right">
         <?php
           if ($wgSearchPlacement['header']) {
@@ -457,60 +499,12 @@ class StrappingTemplate extends BaseTemplate {
 
       <div id="footer" class="footer container-fluid"<?php $this->html( 'userlangattributes' ) ?>>
         <div class="row">
-    <?php
-      $footerLinks = $this->getFooterLinks();
-
-      if (is_array($footerLinks)) {
-        foreach($footerLinks as $category => $links ):
-          if ($category === 'info') { continue; } ?>
-
+    
             <ul id="footer-<?php echo $category ?>">
               <?php foreach( $links as $link ): ?>
                 <li id="footer-<?php echo $category ?>-<?php echo $link ?>"><?php $this->html( $link ) ?></li>
               <?php endforeach; ?>
-              <?php
-                if ($category === 'places') {
-
-                  # Show sign in link, if not signed in
-                  if ($wgBootstrapSkinLoginLocation == 'footer' && !$this->data['loggedin']) {
-                    $personalTemp = $this->getPersonalTools();
-
-                    if (isset($personalTemp['login'])) {
-                      $loginType = 'login';
-                    } else {
-                      $loginType = 'anonlogin';
-                    }
-
-                    ?><li id="pt-login"><a href="<?php echo $personalTemp[$loginType]['links'][0]['href'] ?>"><?php echo $personalTemp[$loginType]['links'][0]['text']; ?></a></li><?php
-                  }
-
-                  # Show the search in footer to all
-                  if ($wgSearchPlacement['footer']) {
-                    echo '<li>';
-                    $this->renderNavigation( array( 'SEARCHFOOTER' ) ); 
-                    echo '</li>';
-                  }
-                }
-              ?>
-            </ul>
-          <?php 
-              endforeach; 
-            }
-          ?>
-          <?php $footericons = $this->getFooterIcons("icononly");
-          if ( count( $footericons ) > 0 ): ?>
-            <ul id="footer-icons" class="noprint">
-    <?php      foreach ( $footericons as $blockName => $footerIcons ): ?>
-              <li id="footer-<?php echo htmlspecialchars( $blockName ); ?>ico">
-    <?php        foreach ( $footerIcons as $icon ): ?>
-                <?php echo $this->getSkin()->makeFooterIcon( $icon ); ?>
-
-    <?php        endforeach; ?>
-              </li>
         
-    <?php      endforeach; ?>
-            </ul>
-          <?php endif; ?>
         </div>
       </div>
       <!-- /footer -->
@@ -532,7 +526,7 @@ class StrappingTemplate extends BaseTemplate {
         $toolTip = Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) );
 ?>               
               <div class="pull-right"> 
-                  <div class="col-xs-1"><a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 3.5em;"></a></div>
+                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 6em;"></a></div>
               </div>
 <?php
   }
@@ -604,23 +598,30 @@ class StrappingTemplate extends BaseTemplate {
 
         break;
 
-		case 'TOOLBOX':
-			$theMsg = 'toolbox';
-			$theData = array_reverse($this->getToolbox());
-			?>
-			
-			<div class="grid-container3">
-				<ul>
-				<?php
-				foreach( $theData as $key => $item ) {
-					if (preg_match('/specialpages|whatlinkshere/', $key)) {
-						echo '<li class="divider"></li>';
-					}
-					echo $this->makeListItem( $key, $item );
-				}
-				?>
-				</ul>
-			</div>
+        case 'TOOLBOX':
+
+          $theMsg = 'toolbox';
+          $theData = array_reverse($this->getToolbox());
+          ?>
+              <div class="grid-container3">
+              <ul>
+                <?php
+                  foreach( $theData as $key => $item ) {
+                    if (preg_match('/specialpages|whatlinkshere/', $key)) {
+                      echo '<li class="divider"></li>';
+                    }
+
+                    echo $this->makeListItem( $key, $item );
+                  }
+                ?>        
+            </ul>
+      </div>
+      
+      </li>
+      
+          </ul>
+
+          </ul>  
        
           <?php
         break;
@@ -792,19 +793,21 @@ class StrappingTemplate extends BaseTemplate {
          </ul></ul><?php
         break;
 
-		case 'SEARCH':
-          ?>
-			<div class="input-group has-light hidden-xs hidden-sm">
+/*
+case 'SEARCH':
+         ?>
+     <div class="input-group has-light hidden-xs hidden-sm">
             <form class="navbar-search" action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
               <input id="searchInput" class="form-control" type="search" accesskey="f" title="<?php $this->text('searchtitle'); ?>" placeholder="<?php $this->msg('search'); ?>" name="search" value="<?php echo htmlspecialchars ($this->data['search']); ?>">
-			  <span class="input-group-btn">
+       <span class="input-group-btn">
               <?php echo $this->makeSearchButton( 'go', array( 'id' => 'mw-searchButton', 'class' => 'searchButton btn btn-default' ) ); ?>
-			  </span>
+       </span>
             </form>
-			</div>
+     </div>
 
           <?php
         break;
+*/
 
         case 'SIDEBAR':
           foreach ( $this->data['sidebar'] as $name => $content ) {

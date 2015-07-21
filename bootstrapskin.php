@@ -9,7 +9,6 @@
  * @file
  * @ingroup Skins
  * @authors Lee Miller
- * @authors Andre Baier <Andre.Baier@tu-berlin.de>, Tim Jaap <tim.jaap@mailbox.tu-berlin.de>
  */
 
 if( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
@@ -17,10 +16,10 @@ if( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki packag
 $wgExtensionCredits['skin'][] = array(
         'path' => __FILE__,
         'name' => 'Blue Engineering BootStrapSkin Version',
-        'url' => "http://blue-eng.km.tu-berlin.de",
-        'author' => 'André Baier and Tim Jaap',
-        'descriptionmsg' => 'Individualised Bootstrap Skin for mediaWiki based on Hadron by wikiEnvolved!',
-		'version' => '1.0.45',
+		'url' => "http://blue-eng.km.tu-berlin.de",
+		'author' => 'André Baier and Tim Jaap',
+		'descriptionmsg' => 'Individualised Bootstrap Skin for mediaWiki based on Hadron by wikiEnvolved!',
+		'version' => '0.15.7.21',
 );
 
 $wgValidSkinNames['bootstrapskin'] = 'Bootstrap';
@@ -29,17 +28,17 @@ $wgExtensionMessagesFiles['SkinBootstrap'] = dirname(__FILE__).'/Bootstrapskin.i
  
 $wgResourceModules['skins.bootstrapskin'] = array(
         'styles' => array(
-		'bootstrap/bootstrap/css/bootstrap.css'				=> array( 'media' => 'screen' ),
-		'bootstrap/bootstrap/css/bootstrap.css.map'			=> array( 'media' => 'screen' ),
-		'bootstrap/screen.css'								=> array( 'media' => 'screen' ),
-		'bootstrap/theme.css'								=> array( 'media' => 'screen' ),
-		'bootstrap/bootstrap/css/docs.css'					=> array( 'media' => 'screen' ),
-		'bootstrap/bootstrap/awesome/css/font-awesome.css'	=> array( 'media' => 'screen' ),				
+		'bootstrap/bootstrap/css/bootstrap.css' => array( 'media' => 'screen' ),
+		'bootstrap/bootstrap/css/bootstrap.css.map' => array( 'media' => 'screen' ),
+        'bootstrap/screen.css' => array( 'media' => 'screen' ),
+        'bootstrap/theme.css' => array( 'media' => 'screen' ),
+		'bootstrap/bootstrap/css/docs.css' => array( 'media' => 'screen' ),
+        'bootstrap/bootstrap/awesome/css/font-awesome.css' => array( 'media' => 'screen' ),				
 	),
 
 	'scripts' => array(
 	    'bootstrap/bootstrap/js/jquery.js',
-		'bootstrap/bootstrap/js/bootstrap.js',
+            'bootstrap/bootstrap/js/bootstrap.js',
 	    'bootstrap/skin.js',
 	),	
         'remoteBasePath' => &$GLOBALS['wgStylePath'],
