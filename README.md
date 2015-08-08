@@ -100,4 +100,4 @@ Was ist da eigentlich der Unterschied?
 
 ## Tims Änderungen eingepflegt
 Die Änderungen von Tim, die ich mal über FTPUpload gelöscht hatte - jetzt in die Github Version eingepflegt
-Suche auskommentiert - weil sie noch nicht "schön" ist
+Suche auskommentiert - weil sie noch nicht "schön" ist!

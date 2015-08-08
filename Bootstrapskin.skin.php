@@ -807,8 +807,12 @@ case 'SEARCH':
 
           <?php
         break;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 075dd24d49b88ff584a93163de631f1b804b58cb
 
+*/
         case 'SIDEBAR':
           foreach ( $this->data['sidebar'] as $name => $content ) {
             if ( !isset($content) ) {
