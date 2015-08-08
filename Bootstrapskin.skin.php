@@ -793,7 +793,7 @@ class StrappingTemplate extends BaseTemplate {
          </ul></ul><?php
         break;
 
-/*
+
 case 'SEARCH':
          ?>
      <div class="input-group has-light hidden-xs hidden-sm">
@@ -807,7 +807,7 @@ case 'SEARCH':
 
           <?php
         break;
-*/
+
 
         case 'SIDEBAR':
           foreach ( $this->data['sidebar'] as $name => $content ) {
