@@ -277,9 +277,10 @@
   border-radius:6px 0 6px 6px;
 }
 .hadron p {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 13px;
-  color:#656565;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color:#656565;
+    margin: 15px 0 0px -30px;
 }
 .hadron .nav,
 .hadron .collapse,

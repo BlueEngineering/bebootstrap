@@ -172,102 +172,72 @@ class StrappingTemplate extends BaseTemplate {
             <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left"> 
                 <ul class="nav navbar-nav">
                     <!-- Mega Menu -->
-<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Grundgedanken <b class="caret"></b></a>
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Über uns<b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
                                     <div class="col-sm-3">
+                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                    </div>
+                                    <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Blue Engineering</h3></li>
-                                        <li><a data-description="" href="index.php?title=Alerts">Einzelpersonen</a></li>
-                                        <li><a data-description="" href="index.php?title=Badges">Gruppe</a></li>
-                                        <li><a data-description="" href="index.php?title=Breadcrumbs">Hochschulen</a></li>
-                                        <li><a data-description="" href="index.php?title=Buttons">Betriebe</a></li>
-                                        <li><a data-description="" href="index.php?title=Button_dropdown">Button Drop</a></li>
+                                        <li><a data-description="" href="index.php?title=Grundgedanken">Grundgedanken</a></li>
+                                        <li><a data-description="" href="index.php?title=Hochschulen">Hochschulen</a></li>
+                                        <li><a data-description="" href="index.php?title=Betriebe">Betriebe</a></li>
+                                        <li><a data-description="" href="index.php?title=Einzelpersonen">Einzelpersonen</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Themen</h3></li>
-                                        <li><a data-description="" href="index.php?title=Helper_Classes">Technik</a></li>
-                                        <li><a data-description="" href="index.php?title=Installing_wikiEvolved">Natur</a></li>
-                                        <li><a data-description="" href="index.php?title=Jumbotron">Individuen</a></li>
-                                        <li><a data-description="" href="index.php?title=Labels">Gesellschaft</a></li>
-                                        <li><a data-description="" href="index.php?title=Lists">Demokratie</a></li>
+                                        <li><a data-description="" href="index.php?title=Technik">Technik</a></li>
+                                        <li><a data-description="" href="index.php?title=Natur">Natur</a></li>
+                                        <li><a data-description="" href="index.php?title=Individuum">Individuen</a></li>
+                                        <li><a data-description="" href="index.php?title=Gesellschaft">Gesellschaft</a></li>
+                                        <li><a data-description="" href="index.php?title=Demokratie">Demokratie</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
-                                        <li><h3 class="title">Vor Ort</h3></li>
-                                        <li><a data-description="" href="index.php?title=Pagination">Berlin</a></li>
-                                        <li><a data-description="" href="index.php?title=Panels">Hamburg</a></li>
-                                        <li><a data-description="" href="index.php?title=Page_Header">Deine Stadt</a></li>
-                                        <li><a data-description="" href="index.php?title=Responsive">Meine Stadt</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Extra</h3></li>
-                                        <li><a data-description="" href="index.php?title=Font_Awesome">Font Awesome</a></li>
-                                        <li><a data-description="" href="index.php?title=Glyph_Icons">Glyph Icons</a></li>
-                                        <li><a data-description="" href="index.php?title=Extending_wikiEvolved">Extending wE!</a></li>
-                                        <li><a data-description="" href="index.php?title=Adding_Classes">Adding Classes</a></li>
-                                        <li><a data-description="" href="index.php?title=Hadron_Classes">Hadron Classes</a></li>
-                                        <li><a data-description="" href="index.php?title=Adding_Fonts">Adding Fonts</a></li>
-                                        <li><a data-description="" href="index.php?title=Getting_Started">Tips and Tricks!</a></li>
+                                        <li><h3 class="title">Öffentlichkeitsarbeit</h3></li>
+                                        <li><a data-description="" href="index.php?title=Veranstaltungen">Veranstaltungen</a></li>
+                                        <li><a data-description="" href="index.php?title=Andere_über_uns">Andere über uns</a></li>
+                                        <li><a data-description="" href="index.php?title=The_Blue_Engineer">The Blue Engineer</a></li>
+                                        <li><a data-description="" href="index.php?title=Pressemappe">Pressemappe</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
       </li><!-- end list elements -->
-                    <!-- list elements -->
-                    <!-- standard drop down -->
-  <li class="dropdown hadron-fw"><a href="index.php?title=Help_create_wikiEvolved">Seminare</a></li>
-  <li class="dropdown hadron-fw"><a href="index.php?title=Help_create_wikiEvolved">Betriebe</a></li>
-  <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Vor Ort<b class="caret"></b></a>
+   <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Vor Ort<b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-4">
                                         <ul>
-                                        <li><h3 class="title">Blue Engineering</h3></li>
-                                        <li><a data-description="" href="index.php?title=Alerts">Einzelpersonen</a></li>
-                                        <li><a data-description="" href="index.php?title=Badges">Gruppe</a></li>
-                                        <li><a data-description="" href="index.php?title=Breadcrumbs">Hochschulen</a></li>
-                                        <li><a data-description="" href="index.php?title=Buttons">Betriebe</a></li>
-                                        <li><a data-description="" href="index.php?title=Button_dropdown">Button Drop</a></li>
+                                        <li><h3 class="title">Berlin</h3></li>
+                                        <li><a data-description="" href="index.php?title=Berlin:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href="index.php?title=Berlin:Aktivitäten">Aktivitäten</a></li>
+                                        <li><a data-description="" href="index.php?title=Berlin:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-4">
                                         <ul>
-                                        <li><h3 class="title">Themen</h3></li>
-                                        <li><a data-description="" href="index.php?title=Helper_Classes">Technik</a></li>
-                                        <li><a data-description="" href="index.php?title=Installing_wikiEvolved">Natur</a></li>
-                                        <li><a data-description="" href="index.php?title=Jumbotron">Individuen</a></li>
-                                        <li><a data-description="" href="index.php?title=Labels">Gesellschaft</a></li>
-                                        <li><a data-description="" href="index.php?title=Lists">Demokratie</a></li>
+                                        <li><h3 class="title">Hamburg</h3></li>
+                                        <li><a data-description="" href="index.php?title=Hamburg:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href="index.php?title=Hamburg:Aktivitäten">Aktivitäten</a></li>
+                                        <li><a data-description="" href="index.php?title=Hamburg:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-4">
                                         <ul>
-                                        <li><h3 class="title">Vor Ort</h3></li>
-                                        <li><a data-description="" href="index.php?title=Pagination">Berlin</a></li>
-                                        <li><a data-description="" href="index.php?title=Panels">Hamburg</a></li>
-                                        <li><a data-description="" href="index.php?title=Page_Header">Deine Stadt</a></li>
-                                        <li><a data-description="" href="index.php?title=Responsive">Meine Stadt</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Extra</h3></li>
-                                        <li><a data-description="" href="index.php?title=Font_Awesome">Font Awesome</a></li>
-                                        <li><a data-description="" href="index.php?title=Glyph_Icons">Glyph Icons</a></li>
-                                        <li><a data-description="" href="index.php?title=Extending_wikiEvolved">Extending wE!</a></li>
-                                        <li><a data-description="" href="index.php?title=Adding_Classes">Adding Classes</a></li>
-                                        <li><a data-description="" href="index.php?title=Hadron_Classes">Hadron Classes</a></li>
-                                        <li><a data-description="" href="index.php?title=Adding_Fonts">Adding Fonts</a></li>
-                                        <li><a data-description="" href="index.php?title=Getting_Started">Tips and Tricks!</a></li>
+                                        <li><h3 class="title">Eigene Ortsgruppe gründen</h3></li>
+                                        <li><a data-description="" href="index.php?title=Starter-Kit">Starter-Kit</a></li>
+                                        <li><a data-description="" href="index.php?title=Unterstützung">Unterstützung</a></li>
+                                        <li><a data-description="" href="index.php?title=Betriebsgruppe_gründen">Betriebsgruppe gründen</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
@@ -275,6 +245,85 @@ class StrappingTemplate extends BaseTemplate {
                         </ul><!-- end drop down menu -->
       </li><!-- end list elements -->
   <!-- end list elements -->
+  <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Seminar<b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <ul>
+                                        <li><h3 class="title">Berlin</h3></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Prozesshandbuch">Prozesshandbuch</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Evaluation">Evaluation</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:2015_2">Wintersemester 2015/2016</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Archiv">Archiv</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul>
+                                        <li><h3 class="title">Hamburg</h3></li>
+                                        <li><a data-description="" href="index.php?title=Hamburg:Seminar">Allgemein</a></li>
+                                        <li><a data-description="" href="index.php?title=Hamburg:2015_2">Wintersemester 2015/2016</a></li>
+                                        <li><a data-description="" href="index.php?title=Hamburg:Seminar_Archiv">Archiv</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <ul>
+                                        <li><h3 class="title">Bildungsangebote</h3></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Allgemein Bildungsangebot">Allgemein</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:25_Fragen_Bildungsangebot">25 Fragen</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Sozial-Ökologische_Transformation_Bildungsangebot">sozial-ökologische Transformation</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Konversion_Bildungsangebot">Demokratische Konversion</a></li>
+                                        <li><a data-description="" href="index.php?title=BSem:Betzavta_Bildungsangebot">Betzavta - Demokratiepädagogik</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu -->
+      </li><!-- end list elements -->
+  <!-- end list elements -->  
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Baukasten<b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Beschreibung</h3></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Grundgedanken">Grundgedanken</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Themen">Themen</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Didaktik">Didaktik</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Bausteine</h3></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Bausteine Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Ausgzeichnete Bausteine">Ausgzeichnete</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Bausteine Liste">Liste aller Bausteine</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Wissensspeicher</h3></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Wissensspeicher Liste">Liste aller Bausteine</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Sonstige</h3></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Spiele">Spiele</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:E-Learning">E-Learning</a></li>
+                                        <li><a data-description="" href="index.php?title=Baukasten:Exkursionen">Exkursionen</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu -->
+      </li><!-- end list elements -->
+  <!-- end list elements -->  
+
 <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
