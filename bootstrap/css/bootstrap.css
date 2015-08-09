@@ -4035,12 +4035,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 35px;
   margin-bottom: 20px;
   margin-top: 15px;
+  margin-left: 45px;
+  margin-right: 45px;
   padding-bottom: 5px;
   padding-top: 5px;
-  border-top: 2px dotted transparent;
-  border-bottom: 2px dotted transparent;
-  margin-left: 25px;
-  margin-right: 25px;
+  border-top: 1px dotted transparent;
+  border-bottom: 1px dotted transparent;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -5268,13 +5268,12 @@ a.list-group-item-danger.active:focus {
   background-color: #ffffff;
 }
 .panel-body {
-  padding: 15px;
+  padding: 10px 17px;
   text-align: justify;
-  margin-left: 1px;
 }
 .panel-heading {
-  padding: 10px 15px;
-  border-bottom: 2px dotted #555555;
+  padding: 10px 17px;
+  border-bottom: 1px dotted #555555;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
@@ -5293,7 +5292,7 @@ a.list-group-item-danger.active:focus {
   color: inherit;
 }
 .panel-footer {
-  padding: 10px 15px;
+  padding: 10px 17px;
   background-color: #f5f5f5;
   border-top: 1px solid #dddddd;
   border-bottom-right-radius: 3px;
@@ -5334,8 +5333,8 @@ a.list-group-item-danger.active:focus {
 .panel > .table caption,
 .panel > .table-responsive > .table caption,
 .panel > .panel-collapse > .table caption {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px 17px;
+  padding-right: 10px 17px;
 }
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {

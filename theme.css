@@ -286,7 +286,9 @@
 .hadron .dropup,
 .hadron .dropdown {
   position: static;
-  margin-left: 3px;
+  margin-left: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .hadron .half {
     width: 50%;
@@ -312,7 +314,7 @@
     top: 47px;
     background: none repeat scroll 0% 0% #FFFFFF;
     width: 100%;
-    border-width: 2px;
+    border-width: 1px;
    -moz-border-top-colors: none;
    -moz-border-right-colors: none;
    -moz-border-bottom-colors: none;
