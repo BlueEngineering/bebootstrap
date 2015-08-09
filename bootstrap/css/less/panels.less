@@ -13,7 +13,12 @@
 .panel-body {
   padding: @panel-body-padding;
   &:extend(.clearfix all);
-  text-align: justify;
+  text-align: justify; 
+
+  > p {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 // Optional heading

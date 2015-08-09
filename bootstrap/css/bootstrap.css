@@ -1266,7 +1266,8 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 30px 10px 30px;
+  text-align: justify;
 }
 .lead {
   margin-bottom: 20px;
@@ -5270,6 +5271,10 @@ a.list-group-item-danger.active:focus {
 .panel-body {
   padding: 10px 17px;
   text-align: justify;
+}
+.panel-body > p {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .panel-heading {
   padding: 10px 17px;
