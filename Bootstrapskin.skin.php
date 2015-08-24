@@ -12,7 +12,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 }
 /**
  * SkinTemplate class for Vector skin
- * @ingroup Skins
+ * @ingroup Skins and others
  */
 class SkinBootstrap extends SkinTemplate {
   var $skinname = 'bebootstrapskin', $stylename = 'bootstrapskin',
