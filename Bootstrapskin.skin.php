@@ -12,7 +12,7 @@ if( !defined( 'MEDIAWIKI' ) ) {
 }
 /**
  * SkinTemplate class for Vector skin
- * @ingroup Skins
+ * @ingroup Skins and others
  */
 class SkinBootstrap extends SkinTemplate {
   var $skinname = 'bebootstrapskin', $stylename = 'bootstrapskin',
@@ -183,29 +183,29 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Blue Engineering</h3></li>
-                                        <li><a data-description="" href="index.php?title=Grundgedanken">Grundgedanken</a></li>
-                                        <li><a data-description="" href="index.php?title=Hochschulen">Hochschulen</a></li>
-                                        <li><a data-description="" href="index.php?title=Betriebe">Betriebe</a></li>
-                                        <li><a data-description="" href="index.php?title=Einzelpersonen">Einzelpersonen</a></li>
+                                        <li><a data-description="" href="Grundgedanken">Grundgedanken</a></li>
+                                        <li><a data-description="" href="Hochschulen">Hochschulen</a></li>
+                                        <li><a data-description="" href="Betriebe">Betriebe</a></li>
+                                        <li><a data-description="" href="Einzelpersonen">Einzelpersonen</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Themen</h3></li>
-                                        <li><a data-description="" href="index.php?title=Technik">Technik</a></li>
-                                        <li><a data-description="" href="index.php?title=Natur">Natur</a></li>
-                                        <li><a data-description="" href="index.php?title=Individuum">Individuen</a></li>
-                                        <li><a data-description="" href="index.php?title=Gesellschaft">Gesellschaft</a></li>
-                                        <li><a data-description="" href="index.php?title=Demokratie">Demokratie</a></li>
+                                        <li><a data-description="" href="Technik">Technik</a></li>
+                                        <li><a data-description="" href="Natur">Natur</a></li>
+                                        <li><a data-description="" href="Individuum">Individuen</a></li>
+                                        <li><a data-description="" href="Gesellschaft">Gesellschaft</a></li>
+                                        <li><a data-description="" href="Demokratie">Demokratie</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Öffentlichkeitsarbeit</h3></li>
-                                        <li><a data-description="" href="index.php?title=Veranstaltungen">Veranstaltungen</a></li>
-                                        <li><a data-description="" href="index.php?title=Andere_über_uns">Andere über uns</a></li>
-                                        <li><a data-description="" href="index.php?title=The_Blue_Engineer">The Blue Engineer</a></li>
-                                        <li><a data-description="" href="index.php?title=Pressemappe">Pressemappe</a></li>
+                                        <li><a data-description="" href="Veranstaltungen">Veranstaltungen</a></li>
+                                        <li><a data-description="" href="Andere_über_uns">Andere über uns</a></li>
+                                        <li><a data-description="" href="The_Blue_Engineer">The Blue Engineer</a></li>
+                                        <li><a data-description="" href="Pressemappe">Pressemappe</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
@@ -219,25 +219,25 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-4">
                                         <ul>
                                         <li><h3 class="title">Berlin</h3></li>
-                                        <li><a data-description="" href="index.php?title=Berlin:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href="index.php?title=Berlin:Aktivitäten">Aktivitäten</a></li>
-                                        <li><a data-description="" href="index.php?title=Berlin:Kontakt">Kontakt</a></li>
+                                        <li><a data-description="" href="Berlin:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href="Berlin:Aktivitäten">Aktivitäten</a></li>
+                                        <li><a data-description="" href="Berlin:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-4">
                                         <ul>
                                         <li><h3 class="title">Hamburg</h3></li>
-                                        <li><a data-description="" href="index.php?title=Hamburg:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href="index.php?title=Hamburg:Aktivitäten">Aktivitäten</a></li>
-                                        <li><a data-description="" href="index.php?title=Hamburg:Kontakt">Kontakt</a></li>
+                                        <li><a data-description="" href="Hamburg:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href="Hamburg:Aktivitäten">Aktivitäten</a></li>
+                                        <li><a data-description="" href="Hamburg:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-4">
                                         <ul>
                                         <li><h3 class="title">Eigene Ortsgruppe gründen</h3></li>
-                                        <li><a data-description="" href="index.php?title=Starter-Kit">Starter-Kit</a></li>
-                                        <li><a data-description="" href="index.php?title=Unterstützung">Unterstützung</a></li>
-                                        <li><a data-description="" href="index.php?title=Betriebsgruppe_gründen">Betriebsgruppe gründen</a></li>
+                                        <li><a data-description="" href="Starter-Kit">Starter-Kit</a></li>
+                                        <li><a data-description="" href="Unterstützung">Unterstützung</a></li>
+                                        <li><a data-description="" href="Betriebsgruppe_gründen">Betriebsgruppe gründen</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
@@ -252,29 +252,29 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-4">
                                         <ul>
                                         <li><h3 class="title">Berlin</h3></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Prozesshandbuch">Prozesshandbuch</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Evaluation">Evaluation</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:2015_2">Wintersemester 2015/2016</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Archiv">Archiv</a></li>
+                                        <li><a data-description="" href="BSem:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href="BSem:Prozesshandbuch">Prozesshandbuch</a></li>
+                                        <li><a data-description="" href="BSem:Evaluation">Evaluation</a></li>
+                                        <li><a data-description="" href="BSem:2015_2">Wintersemester 2015/2016</a></li>
+                                        <li><a data-description="" href="BSem:Archiv">Archiv</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-4">
                                         <ul>
                                         <li><h3 class="title">Hamburg</h3></li>
-                                        <li><a data-description="" href="index.php?title=Hamburg:Seminar">Allgemein</a></li>
-                                        <li><a data-description="" href="index.php?title=Hamburg:2015_2">Wintersemester 2015/2016</a></li>
-                                        <li><a data-description="" href="index.php?title=Hamburg:Seminar_Archiv">Archiv</a></li>
+                                        <li><a data-description="" href="Hamburg:Seminar">Allgemein</a></li>
+                                        <li><a data-description="" href="Hamburg:2015_2">Wintersemester 2015/2016</a></li>
+                                        <li><a data-description="" href="Hamburg:Seminar_Archiv">Archiv</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-4">
                                         <ul>
                                         <li><h3 class="title">Bildungsangebote</h3></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Allgemein Bildungsangebot">Allgemein</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:25_Fragen_Bildungsangebot">25 Fragen</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Sozial-Ökologische_Transformation_Bildungsangebot">sozial-ökologische Transformation</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Konversion_Bildungsangebot">Demokratische Konversion</a></li>
-                                        <li><a data-description="" href="index.php?title=BSem:Betzavta_Bildungsangebot">Betzavta - Demokratiepädagogik</a></li>
+                                        <li><a data-description="" href="BSem:Allgemein Bildungsangebot">Allgemein</a></li>
+                                        <li><a data-description="" href="BSem:25_Fragen_Bildungsangebot">25 Fragen</a></li>
+                                        <li><a data-description="" href="BSem:Sozial-Ökologische_Transformation_Bildungsangebot">sozial-ökologische Transformation</a></li>
+                                        <li><a data-description="" href="BSem:Konversion_Bildungsangebot">Demokratische Konversion</a></li>
+                                        <li><a data-description="" href="BSem:Betzavta_Bildungsangebot">Betzavta - Demokratiepädagogik</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
@@ -289,33 +289,33 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Beschreibung</h3></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Grundgedanken">Grundgedanken</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Themen">Themen</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Didaktik">Didaktik</a></li>
+                                        <li><a data-description="" href="Baukasten:Grundgedanken">Grundgedanken</a></li>
+                                        <li><a data-description="" href="Baukasten:Themen">Themen</a></li>
+                                        <li><a data-description="" href="Baukasten:Didaktik">Didaktik</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Bausteine</h3></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Bausteine Beschreibung">Beschreibung</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Ausgzeichnete Bausteine">Ausgzeichnete</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Bausteine Liste">Liste aller Bausteine</a></li>
+                                        <li><a data-description="" href="Baukasten:Bausteine Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href="Baukasten:Ausgzeichnete Bausteine">Ausgzeichnete</a></li>
+                                        <li><a data-description="" href="Baukasten:Bausteine Liste">Liste aller Bausteine</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Wissensspeicher</h3></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Wissensspeicher Liste">Liste aller Bausteine</a></li>
+                                        <li><a data-description="" href="Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href="Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
+                                        <li><a data-description="" href="Baukasten:Wissensspeicher Liste">Liste aller Bausteine</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Sonstige</h3></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Spiele">Spiele</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:E-Learning">E-Learning</a></li>
-                                        <li><a data-description="" href="index.php?title=Baukasten:Exkursionen">Exkursionen</a></li>
+                                        <li><a data-description="" href="Baukasten:Spiele">Spiele</a></li>
+                                        <li><a data-description="" href="Baukasten:E-Learning">E-Learning</a></li>
+                                        <li><a data-description="" href="Baukasten:Exkursionen">Exkursionen</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
@@ -548,7 +548,7 @@ class StrappingTemplate extends BaseTemplate {
         $toolTip = Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) );
 ?>               
               <div class="pull-right"> 
-                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 2em;"></a></div>
+                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 5em;"></a></div>
               </div>
 <?php
   }
