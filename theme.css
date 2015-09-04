@@ -711,14 +711,14 @@
 
 /* SPALTE RECHTS */
 
-.spalte-rechts {
+.column-right {
   margin-right: 30px;
 }
-.spalte-rechts p {
+.column-right p {
   margin: 0 15px 0 45px;
 }
 
-.spalte-rechts h3 {
+.column-right h3 {
   border-bottom: 1px dotted #555;
   font-size: 18px;
   font-weight: 600;
