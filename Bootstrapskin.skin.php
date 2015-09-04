@@ -216,7 +216,11 @@ class StrappingTemplate extends BaseTemplate {
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
+                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                    </div>
+                                    <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Berlin</h3></li>
                                         <li><a data-description="" href="Berlin:Allgemein">Allgemein</a></li>
@@ -224,7 +228,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <li><a data-description="" href="Berlin:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Hamburg</h3></li>
                                         <li><a data-description="" href="Hamburg:Allgemein">Allgemein</a></li>
@@ -232,7 +236,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <li><a data-description="" href="Hamburg:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Eigene Ortsgruppe gründen</h3></li>
                                         <li><a data-description="" href="Starter-Kit">Starter-Kit</a></li>
@@ -249,7 +253,11 @@ class StrappingTemplate extends BaseTemplate {
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
+                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                    </div>
+                                    <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Berlin</h3></li>
                                         <li><a data-description="" href="BSem:Allgemein">Allgemein</a></li>
@@ -259,7 +267,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <li><a data-description="" href="BSem:Archiv">Archiv</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Hamburg</h3></li>
                                         <li><a data-description="" href="Hamburg:Seminar">Allgemein</a></li>
@@ -267,7 +275,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <li><a data-description="" href="Hamburg:Seminar_Archiv">Archiv</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Bildungsangebote</h3></li>
                                         <li><a data-description="" href="BSem:Allgemein Bildungsangebot">Allgemein</a></li>
@@ -548,7 +556,7 @@ class StrappingTemplate extends BaseTemplate {
         $toolTip = Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) );
 ?>               
               <div class="pull-right"> 
-                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 5em;"></a></div>
+                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 6em;"></a></div>
               </div>
 <?php
   }
