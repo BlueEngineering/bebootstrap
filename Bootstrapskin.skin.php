@@ -556,7 +556,7 @@ class StrappingTemplate extends BaseTemplate {
         $toolTip = Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) );
 ?>               
               <div class="pull-right"> 
-                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 5em;"></a></div>
+                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 6em;"></a></div>
               </div>
 <?php
   }
