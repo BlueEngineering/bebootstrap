@@ -683,22 +683,16 @@
   margin: 0;
 }
 
-.mw-content-ltr p {
-
 }
 
-/* NEWS */
 
-.news {
   margin: 0 0 0 0;
   padding: 0 15px 0 15px;
 }
 
-.news p {
   margin: 0 0 0 0;
 }
 
-.news h3 {
   border-bottom: 1px dotted #555;
   font-size: 18px;
   font-weight: 600;
@@ -707,13 +701,10 @@
   margin-right: -15px;
 }
 
-.news .thumbinner {
   padding: 5px 0 5px 15px;
-  margin-left: 0px;
   margin: 0 15px 0 0;
 }
 
-/* SPALTE RECHTS */
 
 .column-right {
   margin: 0;
@@ -742,8 +733,6 @@
 /* THUMBINNER */
 
 .thumbinner {
-  margin-left: 15px;
-  margin-bottom: 15px;
 }
 
 
