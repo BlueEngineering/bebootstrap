@@ -683,16 +683,30 @@
   margin: 0;
 }
 
+.mw-content-ltr > p {
+  padding: 0 30px 0 30px;
 }
 
+/* COLUMN LEFT */
 
+.column-left {
   margin: 0 0 0 0;
   padding: 0 15px 0 15px;
 }
 
+.column-left p {
   margin: 0 0 0 0;
 }
 
+.column-left h2 {
+  margin-top: 50px;
+}
+
+.column-left h2:first-child {
+  margin-top: inherit;
+}
+
+.column-left h3 {
   border-bottom: 1px dotted #555;
   font-size: 18px;
   font-weight: 600;
@@ -701,10 +715,12 @@
   margin-right: -15px;
 }
 
+.column-left .thumbinner {
   padding: 5px 0 5px 15px;
   margin: 0 15px 0 0;
 }
 
+/* COLUMN RIGHT */
 
 .column-right {
   margin: 0;
@@ -733,6 +749,7 @@
 /* THUMBINNER */
 
 .thumbinner {
+  margin: 5px 30px 0 15px;
 }
 
 
