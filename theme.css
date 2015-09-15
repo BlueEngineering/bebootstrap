@@ -699,14 +699,10 @@
 }
 
 .column-left h2 {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-.column-left h2:first-child {
-  margin-top: inherit;
-}
-
-.column-left h3 {
+.column-left h2 {
   border-bottom: 1px dotted #555;
   font-size: 18px;
   font-weight: 600;
@@ -720,6 +716,98 @@
   margin: 0 15px 0 0;
 }
 
+/* BE NEWS STARTSEITE */
+
+.be-news-startseite {
+  margin: 0 0 0 0;
+  padding: 0 15px 0 15px;
+}
+
+.be-news-startseite p {
+  margin: 0 0 0 0;
+}
+
+.be-news-startseite h1 {
+  border-bottom: 1px dotted #555;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 0 10px 15px;
+  margin: 25px -15px 10px -15px;
+}
+
+.be-news-startseite .thumbinner {
+  padding: 5px 0 5px 15px;
+  margin: 0 15px 0 0;
+}
+
+/* EXTERNE NEWS STARTSEITE */
+
+.externe-news-startseite {
+  margin: 0 0 0 0;
+  padding: 0 15px 0 15px;
+}
+
+.externe-news-startseite p {
+  margin: 0 0 0 0;
+}
+
+.externe-news-startseite h1 {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 15px 0 5px 0;
+}
+
+.externe-news-startseite h2 {
+  border-bottom: 1px dotted #555;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 0 10px 15px;
+  margin: 25px -15px 10px -15px;
+}
+
+.externe-news-startseite .thumbinner {
+  padding: 5px 0 5px 15px;
+  margin: 0 15px 0 0;
+}
+
+/* EXTERNE NEWS */
+
+.alle-news {
+  margin: 0 0 0 0;
+  padding: 0 30px 0 30px;
+}
+
+.alle-news p {
+  margin: 0 0 0 0;
+}
+
+.alle-news h1 {
+  border-bottom: 1px dotted #555;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 0 10px 15px;
+  margin: 25px -15px 10px -15px;
+}
+
+.alle-news h2 {
+  border-bottom: 1px dotted #555;
+  font-size: 18px;
+  font-weight: 800;
+  color: #555;
+  padding: 0 0 10px 15px;
+  margin: 45px -15px 10px -15px;
+}
+
+.alle-news h2:first-child {
+  margin: 15px -15px 10px -15px;
+}
+
+.alle-news .thumbinner {
+  padding: 5px 0 5px 15px;
+  margin: 0 15px 0 0;
+}
+
+
 /* COLUMN RIGHT */
 
 .column-right {
@@ -730,13 +818,12 @@
   margin: 0;
 }
 
-.column-right h3 {
+.column-right h1 {
   border-bottom: 1px dotted #555;
   font-size: 18px;
   font-weight: 600;
   padding: 0 0 10px 15px;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin: 25px -15px 10px -15px;
 }
 
 /* ROW */

@@ -1,5 +1,5 @@
 	<div id="footer" class="footer container-fluid">
-    <div class="row">
+    <div class="row hidden-xs">
 	<!-- footer row starts here -->	
 	<ul>
 	<li>Blue Engineering Logo designed by <a href="http://teenck.net">Teenck.</a></li>
