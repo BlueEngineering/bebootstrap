@@ -735,6 +735,14 @@
   margin: 25px -15px 10px -15px;
 }
 
+.be-news-startseite h3 {
+  font-size: 13px;
+  margin: -10px 2px 15px 0;
+  text-align: right;
+  font-weight: 600;
+  line-height: 1;
+}
+
 .be-news-startseite .thumbinner {
   padding: 5px 0 5px 15px;
   margin: 0 15px 0 0;
@@ -763,6 +771,14 @@
   font-weight: 600;
   padding: 0 0 10px 15px;
   margin: 25px -15px 10px -15px;
+}
+
+.externe-news-startseite h3 {
+  font-size: 13px;
+  margin: -10px 2px 15px 0;
+  text-align: right;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .externe-news-startseite .thumbinner {
