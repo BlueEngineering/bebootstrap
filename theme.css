@@ -126,20 +126,13 @@
   font-weight: 600;
   margin-top: 10.3em;
   margin-left: 26px;
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-=======
->>>>>>> parent of 4c26429... Textseite weiter gepumpt
-=======
->>>>>>> parent of 4c26429... Textseite weiter gepumpt
 }
 
 .headertitle a {
   font-weight: 600;
   text-decoration: none;
   font-size: 1.3em;
-  border-top: 25px solid gray;
   }
 
 .headersubtitle {
@@ -713,16 +706,20 @@
 
 .mw-content-ltr > h1 {
   border-bottom: 1px dotted #555;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 800;
   margin: 25px 15px 10px 15px;
   padding: 0 0 10px 15px;
   overflow: hidden;
 }
 
+.mw-content-ltr > h1:first-child {
+  margin-top: 15px;
+}
+
 .mw-content-ltr > h2 {
   border-bottom: 1px dotted #555;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   padding: 0 0 10px 15px;
   margin: 25px 15px 10px 15px;
@@ -730,9 +727,9 @@
 }
 
 .mw-content-ltr > h3 {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 800;
-  margin: 25px 0 5px 0;
+  margin: 15px 0 5px 0;
   padding: 0 30px 0 30px;
 }
 
@@ -898,8 +895,25 @@
   margin-right: 45px;
 }
 
-/* THUMBINNER */
+/* IMAGES */
 
 .thumbinner {
-  margin: 5px 30px 0 15px;
+  margin: 4px 30px 0 15px;
+}
+
+.floatright {
+  margin: 0px 30px 0 15px;
+}
+
+.thumbcaption {
+  line-height: 1;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+
+/* CATLINKS */
+
+.catlinks {
+  margin: 0 15px 0 15px;
 }
