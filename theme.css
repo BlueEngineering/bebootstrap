@@ -711,6 +711,7 @@
   margin: 25px 15px 10px 15px;
   padding: 0 0 10px 15px;
   overflow: hidden;
+  min-width: 51%;
 }
 
 .mw-content-ltr > h1:first-child {
@@ -724,6 +725,7 @@
   padding: 0 0 10px 15px;
   margin: 25px 15px 10px 15px;
   overflow: hidden;
+  min-width: 51%;
 }
 
 .mw-content-ltr > h3 {
