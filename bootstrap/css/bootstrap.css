@@ -5277,7 +5277,8 @@ a.list-group-item-danger.active:focus {
   margin-left: 28px;
   margin-right: 0px;
 }
-.panel-body > ol {
+.panel-body > ol,
+.panel-body ul {
   margin-bottom: 10px;
 }
 .panel-heading {
