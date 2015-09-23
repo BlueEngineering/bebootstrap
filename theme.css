@@ -418,7 +418,7 @@
   height: 29px;
   padding-left: 3px;
   border-left: 1px solid #e5e5e5;
-  font-size: 15px;
+  px;
   line-height: 29px;
   text-align: center;
   color: #ccc;
@@ -888,13 +888,6 @@
   margin: 25px -15px 10px -15px;
 }
 
-/* ROW */
-
-.row {
-  margin-left: 15px;
-  margin-right: 45px;
-}
-
 /* IMAGES */
 
 .thumbinner {
@@ -916,4 +909,8 @@
 
 .catlinks {
   margin: 0 15px 0 15px;
+}
+
+.quiz {
+  margin: 5px;
 }
