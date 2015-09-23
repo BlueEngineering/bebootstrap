@@ -917,11 +917,7 @@
 
 /* ACCORDION */
 
-.accordion-row {
-  margin-left: -15px;
-  margin-right: 15px;
-}
-
-.accordion-col {
+#accordion-col {
   padding: 0;
+  left: -15px;
 }
