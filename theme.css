@@ -917,7 +917,7 @@
 
 /* ACCORDION */
 
-.accordion-col {
+#accordion-col {
   padding: 0;
   left: -15px;
 }
