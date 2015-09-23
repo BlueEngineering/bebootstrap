@@ -915,8 +915,13 @@
   margin: 5px;
 }
 
-/* GRID ANGEPASST FÜR KLAPPEN */
+/* ACCORDION */
 
-#withoutgrid {
+.accordion-row {
+  margin-left: -15px;
+  margin-right: 15px;
+}
+
+.accordion-col {
   padding: 0;
 }
