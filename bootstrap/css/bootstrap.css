@@ -5597,7 +5597,7 @@ a.list-group-item-danger.active:focus {
 .panel-2-klappen-punkte > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #555555;
 }
-.panel-2-klappen-punkte > p {
+.panel-2-klappen-punkte p {
   margin-left: 30px;
 }
 .panel-4-klappen-punkte {
