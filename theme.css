@@ -914,3 +914,9 @@
 .quiz {
   margin: 5px;
 }
+
+/* GRID ANGEPASST FÜR KLAPPEN */
+
+#accordion .col-sm-12, .col-sm-6, .col-sm-3 {
+  padding: 0;
+}
