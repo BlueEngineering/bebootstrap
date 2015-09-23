@@ -736,7 +736,7 @@
   min-width: 51%;
 }
 
-.push-h > h1, h2, h3 {
+.push-h + h1, h2, h3 {
   width: 100%;
   overflow: auto;
 }
