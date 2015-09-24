@@ -729,7 +729,7 @@
 }
 
 .mw-content-ltr > h3 {
-  font-size: 13px;
+  font-size: 15px; /* hier ist wieder auf 13 zu ändern, wenn der Bug im Server gefunden wurde, der die Standardfontsize ändert */
   font-weight: 800;
   margin: 15px 0 5px 0;
   padding: 0 30px 0 30px;
