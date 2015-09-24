@@ -1445,10 +1445,10 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 9.5px 19px;
-  margin: 0 0 19px;
-  font-size: 16.25px;
-  border-left: 5px solid #eeeeee;
+  padding: 19px 33% 19px 15px;
+  margin: 0 10px 19px;
+  font-size: 13px;
+  border-left: 5px solid #337ab7;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -1472,7 +1472,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #337ab7;
   border-left: 0;
   text-align: right;
 }
