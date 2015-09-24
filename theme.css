@@ -924,3 +924,14 @@
   padding: 0;
   left: -15px;
 }
+
+/* TAB CLASS */
+
+.tab-content {
+  margin-top: 15px;
+}
+
+.tab-content p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
