@@ -87,7 +87,7 @@
       border: 1px solid transparent;
       border-radius: 0;
       &:hover {
-        border-color: @nav-tabs-link-hover-border-color @nav-tabs-link-hover-border-color @nav-tabs-border-color;
+        border-color: transparent;
       }
     }
 
@@ -109,7 +109,11 @@
   &.nav-justified {
     .nav-justified();
     .nav-tabs-justified();
+    border: 0;
   }
+
+
+  
 }
 
 
@@ -134,6 +138,7 @@
       &:focus {
         color: @nav-pills-active-link-hover-color;
         background-color: @gray-lighter;
+        border-bottom: 0;
       }
     }
   }
