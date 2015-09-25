@@ -729,7 +729,7 @@
 }
 
 .mw-content-ltr > h3 {
-  font-size: 15px; /* hier ist wieder auf 13 zu ändern, wenn der Bug im Server gefunden wurde, der die Standardfontsize ändert */
+  font-size: 13px;
   font-weight: 800;
   margin: 15px 0 5px 0;
   padding: 0 30px 0 30px;
@@ -941,4 +941,68 @@
 
 .tab-content p:first-child {
   padding-top: 15px;
+}
+
+/* Blockquote */
+
+blockquote > p {
+  text-align: left;
+  margin-right: 33%;
+}
+
+.blockquote-reverse > p {
+  text-align: right;
+  margin: 0 0 0 33%;
+}
+
+/* BS-Zeitplan */
+
+.bs-zeitplan {
+  margin-left: 30px;
+}
+
+.bs-zeitplan h2 {
+  font-size: 13px;
+  margin-left: -25px;
+  font-weight: 800;
+  margin-top: 60px;
+  position: absolute;
+  text-align: right;
+  width: 45px;
+}
+
+.bs-zeitplan h2:first-child {
+  margin-top: 25px;
+}
+
+.bs-zeitplan h3 {
+  font-size: 13px;
+  font-weight: 800;
+  margin: 15px 0 5px 0;
+  padding: 0 30px 0 30px;
+  min-width: 76%;
+}
+
+.bs-zeitplan h2 + h3 {
+  margin-top: 45px;
+}
+
+.bs-zeitplan p {
+  padding: 0 30px 0 40px;
+}
+
+.bs-zeitplan > ul {
+  margin: 0 30px 10px 60px;
+}
+
+.bs-zeitplan > ul > li > ul {
+  margin: 5px 30px 4px 30px;
+}
+
+.bs-zeitplan > ol {
+  margin: 0 30px 10px 60px;
+}
+
+.bs-zeitplan > ol > li > ol {
+  margin: 5px 30px 4px 30px;
 }
