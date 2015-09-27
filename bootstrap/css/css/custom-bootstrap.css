@@ -5508,7 +5508,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 19px;
-  background-color: #ffffff;
+  background-color: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6819,6 +6819,14 @@ body {
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
   border-top: 0px solid #dddddd;
+}
+.panel {
+  margin-bottom: 19px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
 }
 /* navbar.less */
 .navbar {
