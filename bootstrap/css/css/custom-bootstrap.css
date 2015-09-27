@@ -7046,7 +7046,7 @@ ul {
 .externe-news-startseite h2 {
   font-size: 13px;
   font-weight: 700;
-  margin-top: -15px;
+  margin-top: -45px;
   margin-bottom: 5px;
   border: 0;
 }
@@ -7175,6 +7175,26 @@ blockquote > p {
 }
 .tab-content p:first-child {
   padding-top: 15px;
+}
+/* Irgendwas mit Bilder Images Thumbs */
+.thumbinner {
+  margin: 4px 30px 0 15px;
+}
+.floatright {
+  margin: 0px 30px 0 15px;
+}
+.thumbcaption {
+  line-height: 1;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.be-news-startseite .thumbinner {
+  padding: 5px 0 5px 15px;
+  margin: 0 15px 0 0;
+}
+.externe-news-startseite .thumbinner {
+  padding: 5px 0 5px 15px;
+  margin: 0 15px 0 0;
 }
 /* Hier regiert die load.php rein */
 .mw-content-ltr > ul {
