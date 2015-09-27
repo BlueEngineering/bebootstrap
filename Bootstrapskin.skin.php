@@ -150,9 +150,9 @@ class StrappingTemplate extends BaseTemplate {
       <div class="pull-left">
       <div class="col-md-12">
         <div class="headertitle hidden-xs">
-        <h1><a href="http://www.blue-engineering.org/">Blue Engineering</a></h1>
+        <a href="http://www.blue-engineering.org/">Blue Engineering</a>
         </div>
-        <div class="headersubtitle hidden-xs hidden-sm">
+        <div class="headersubtitle hidden-xs">
         <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
         </div>
       </div>

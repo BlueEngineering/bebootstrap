@@ -1,0 +1,364 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700);
+
+/////////////////////////////
+/* LESS from Bootstrap directly */
+/////////////////////////////
+
+body {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+/* panels.less */
+
+ .panel-group .panel-heading {
+    border-bottom: 1px dotted @gray;
+    
+    + .panel-collapse > .panel-body,
+    + .panel-collapse > .list-group {
+      border-top: 0px solid @panel-inner-border;
+    }
+}
+
+
+/* navbar.less */
+
+.navbar {
+	margin-top: @navbar-margin-top;
+  	margin-left: @navbar-margin-left;
+  	margin-right: @navbar-margin-right;
+  	padding-top: @navbar-padding-top;
+  	padding-bottom: @navbar-padding-bottom;
+  	border-top: @navbar-border;
+  	border-bottom: @navbar-border;
+}
+
+.navbar-nav li > a {
+	padding-bottom: 3px;
+}
+
+.nav-tabs {
+  border-bottom: 1px dotted @nav-tabs-border-color;
+  > li {
+    float: left;
+    // Make the list-items overlay the bottom border
+    margin-bottom: -1px;
+
+    // Actual tabs (as links)
+    > a {
+      margin-right: 2px;
+      line-height: @line-height-base;
+      border: 1px solid transparent;
+      border-radius: 0;
+      &:hover {
+        border-color: transparent;
+      }
+    }
+
+    // Active state, and its :hover to override normal :hover
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @nav-tabs-active-link-hover-color;
+        background-color: @gray-lighter;
+        border: 1px solid @nav-tabs-border-color;
+        border-bottom-color: transparent;
+        cursor: default;
+        font-weight: 600;
+      }
+    }
+  }
+  // pulling this in mainly for less shorthand
+  &.nav-justified {
+    .nav-justified();
+    .nav-tabs-justified();
+    border: 0;
+  }
+  
+}
+
+// Justified nav links
+// -------------------------
+
+.nav-justified {
+  width: 100%;
+
+  > li {
+    float: none;
+    > a {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+
+  > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+  }
+
+  @media (min-width: @screen-sm-min) {
+    > li {
+      display: table-cell;
+      width: 1%;
+      > a {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Move borders to anchors instead of bottom of list
+//
+// Mixin for adding on top the shared `.nav-justified` styles for our tabs
+.nav-tabs-justified {
+  border-bottom: 0;
+
+  > li > a {
+    // Override margin from .nav-tabs
+    margin-right: 0;
+    border-radius: 0;
+  }
+
+  > .active > a,
+  > .active > a:hover,
+  > .active > a:focus {
+    border: 1px dotted @nav-tabs-border-color;
+  }
+
+  @media (min-width: @screen-sm-min) {
+    > li > a {
+      border-bottom: 1px dotted @nav-tabs-border-color;
+      border-radius: 0;
+    }
+    > .active > a,
+    > .active > a:hover,
+    > .active > a:focus {
+      border-bottom-color: transparent;
+      background-color: transparent;
+    }
+  }
+}
+
+
+
+/* type.less */
+
+h1, h2 {
+	font-weight: 600;
+  	margin: 0 -15px 15px -15px;
+  	overflow: hidden;
+  	min-width: 76%;
+  	color: @gray;
+  	border-bottom: 1px dotted @gray-light;
+}
+
+h1 {
+  	font-size: 24px;
+  	padding: 45px 0 10px 15px;
+}
+
+h1:first-child {
+	padding-top: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  padding: 25px 0 10px 15px;
+}
+
+h3 {
+	font-size: @font-size-base;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+p {
+	text-align: justify;
+}
+
+ul {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+/////////////////////////////
+/* NOT YET LESS, STILL CSS
+	or
+   Attacking Mediawiki directly */
+/////////////////////////////
+
+/* Innerbodycontent - Set Margins, or off because of .row from Bootstrap
+- and adjustment to menu */
+
+/* ROW with Margin of 30 - necessary on Mainpage with two columns so that H1 et al. are in line with menu */
+.row-30 {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+/* Col Correction - as above .row-30 - necessary on Mainpage with two columns so that H1 et al. are in line with menu */
+.col-correction {
+  margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#innerbodycontent {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* Footer at the bottom of each page */
+
+#footer .row  {
+  text-align: center; 
+}
+
+#footer .row  a {
+  font-weight: normal;
+}
+
+#footer ul,
+#footer li {
+  padding: 0;
+  list-style: none;
+}
+#footer ul {
+  display: block;
+  margin: 2em auto;
+  border-top: 1px dotted #555;
+  padding-top: 15px;
+}
+#footer li {
+  display: inline;
+  margin: 1ex;
+  font-size: 10px;
+}
+
+#footer-search {
+  display: inline;
+  position: relative;
+  top: 2px;
+}
+#footer-search .icon-search {
+  margin: 0 0 3px 6px;
+  opacity: 0.25;
+}
+
+/* FOOTER - XS */
+
+#footer-xs .row  {
+  text-align: center; 
+}
+
+#footer-xs .row  a {
+  font-weight: normal;
+}
+
+#footer-xs ul,
+#footer-xs li {
+  padding: 0;
+  list-style: none;
+}
+
+#footer-xs ul {
+  display: block;
+  margin: 2em auto;
+  border-top: 1px dotted #555;
+  padding-top: 15px;
+}
+
+#footer-xs li {
+  display: inherit;
+  margin: 1ex;
+  font-size: 10px;
+}
+
+/* Headertitle - Title on top of the page */
+
+.headertitle {
+	font-size: 33px;
+  	font-weight: 600;
+  	margin-top: 137px;
+  	margin-bottom: 30px;
+  	margin-left: 30px;
+  	border: 0;
+}
+
+.headertitle a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.3em;
+  }
+
+.headersubtitle {
+  font-weight: 300;
+  margin-top: -28px;
+  margin-left: 32px;
+  background-color: transparent;
+}
+
+.headersubtitle a {
+  color: #666;
+  width: 100%;
+  text-decoration: none;
+}
+
+/* Blockquote */
+
+blockquote {
+	padding: (@line-height-computed) 0 (@line-height-computed) 16px;
+	margin-left: -20px;
+}
+
+blockquote > p {
+  text-align: left;
+  margin-right: 33%;
+}
+
+.blockquote-reverse > p {
+  text-align: right;
+  margin: 0 0 0 33%;
+}
+
+/* TAB CLASS */
+
+.tab-content {
+  border: 1px dotted #555;
+  border-top: 0;
+  border-radius: 0;
+  margin-top: 1px;
+}
+
+.tab-content p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.tab-content p:first-child {
+  padding-top: 15px;
+}
+
+////////////////////////////////////
+/* Hier regiert die load.php rein */
+////////////////////////////////////
+
+.mw-content-ltr > ul {
+  margin: 0 30px 10px 60px;
+}
+
+.mw-content-ltr > ul > li > ul {
+  margin: 5px 30px 4px 30px;
+}
+
+.mw-content-ltr > ol {
+  margin: 0 30px 10px 60px;
+}
+
+.mw-content-ltr > ol > li > ol {
+  margin: 5px 30px 4px 30px;
+}
