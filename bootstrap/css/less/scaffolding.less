@@ -30,8 +30,6 @@ body {
   line-height: @line-height-base;
   color: @text-color;
   background-color: @body-bg;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 
 // Reset fonts for relevant elements
@@ -149,4 +147,15 @@ hr {
     overflow: visible;
     clip: auto;
   }
+}
+
+
+// iOS "clickable elements" fix for role="button"
+//
+// Fixes "clickability" issue (and more generally, the firing of events such as focus as well)
+// for traditionally non-focusable elements with role="button"
+// see https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+
+[role="button"] {
+  cursor: pointer;
 }
