@@ -7043,7 +7043,7 @@ ul {
   font-weight: 600;
 }
 /* Externe News - Startseite - damit die Überschriften h3 kleiner werden */
-.externe-news-startseite {
+.externe-news-startseite h2 {
   font-size: 13px;
   font-weight: 700;
   margin-top: 20px;
