@@ -7037,6 +7037,19 @@ ul {
 /* NOT YET LESS, STILL CSS
 	or
    Attacking Mediawiki directly */
+/* Weiterlesen für News etc. */
+.weiterlesen {
+  float: right;
+  font-weight: 600;
+}
+/* Externe News - Startseite - damit die Überschriften h3 kleiner werden */
+.externe-news-startseite {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border: 0;
+}
 /* Innerbodycontent - Set Margins, or off because of .row from Bootstrap
 - and adjustment to menu */
 /* ROW with Margin of 30 - necessary on Mainpage with two columns so that H1 et al. are in line with menu */
