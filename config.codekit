@@ -499,11 +499,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bootstrap\/css\/css\/custom-bootstrap.css": {
+	"\/bootstrap\/css\/css\/hadron dropdown menu.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bootstrap\/css\/css\/custom-bootstrap.css",
+		"inputAbbreviatedPath": "\/bootstrap\/css\/css\/hadron dropdown menu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bootstrap\/css\/css\/hadron dropdown-menu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bootstrap\/css\/css\/hadron dropdown-menu.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -567,26 +576,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bootstrap\/css\/custom\/custom-variables.less",
 		"outputAbbreviatedPath": "\/bootstrap\/css\/css\/custom-variables.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/bootstrap\/css\/custom\/hadron dropdown menu.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 1,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bootstrap\/css\/custom\/hadron dropdown menu.less",
-		"outputAbbreviatedPath": "\/bootstrap\/css\/css\/hadron dropdown menu.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
