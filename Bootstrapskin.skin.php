@@ -177,8 +177,8 @@ class StrappingTemplate extends BaseTemplate {
                             <li class="hadron-content withdesc">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
-                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
+                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
@@ -217,8 +217,8 @@ class StrappingTemplate extends BaseTemplate {
                             <li class="hadron-content withdesc">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
-                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
+                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
@@ -254,8 +254,8 @@ class StrappingTemplate extends BaseTemplate {
                             <li class="hadron-content withdesc">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
-                                        <p>Hier lässt sich vielleicht auch eine Menge an freiem Text platzieren, der bestimmt auch auf die eine oder ander Art angeordnet wird.</p>
+                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
+                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
@@ -295,13 +295,17 @@ class StrappingTemplate extends BaseTemplate {
                             <li class="hadron-content withdesc">
                                 <div class="row">
                                     <div class="col-sm-3">
+                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
+                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
+                                    </div>
+                             <!--   <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Beschreibung</h3></li>
                                         <li><a data-description="" href="Baukasten:Grundgedanken">Grundgedanken</a></li>
                                         <li><a data-description="" href="Baukasten:Themen">Themen</a></li>
                                         <li><a data-description="" href="Baukasten:Didaktik">Didaktik</a></li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Bausteine</h3></li>
