@@ -807,6 +807,7 @@ class StrappingTemplate extends BaseTemplate {
          </ul></ul><?php
         break;
 	
+  /*
 	case 'SEARCH': ?>
      <div class="input-group has-light hidden-xs hidden-sm">
             <form class="navbar-search" action="<?php $this->text( 'wgScript' ); ?>" id="searchform">
@@ -849,7 +850,7 @@ class StrappingTemplate extends BaseTemplate {
             if ( $wgBootstrapSkinDisplaySidebarNavigation ) {?>                </ul>              </li><?php
             }          }
         break;
-		
+		*/
         case 'LANGUAGES':
           $theMsg = 'otherlanguages';
           $theData = $this->data['language_urls']; ?>
