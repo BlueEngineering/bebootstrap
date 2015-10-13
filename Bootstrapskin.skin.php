@@ -371,14 +371,14 @@ class StrappingTemplate extends BaseTemplate {
       </li><!-- end list elements -->
       <div id="defaultmenu" class="navbar-collapse collapse col-xs-10 pull-right fullwidth">
     <ul>
-      <!-- start search bar 
+      <!-- start search bar -->
       <li>
         <ul class="nav navbar-nav fullwidth col-xs-10">
           <li class="hadron-fw">
             <?php $this->renderNavigation( array( 'SEARCH' ) ); ?>
           </li>
         </ul>
-      </li>-->
+      </li>
       <!-- end search bar -->
     </ul>
   </div>
@@ -402,7 +402,7 @@ class StrappingTemplate extends BaseTemplate {
     
       </div>
     </div>
-<!--
+
       <div class="pull-right">
         <?php
           if ($wgSearchPlacement['header']) {
@@ -411,7 +411,7 @@ class StrappingTemplate extends BaseTemplate {
           # Personal menu (at the right)
           # $this->renderNavigation( array( 'PERSONAL' ) ); 
         ?>
-      </div>-->
+      </div>
   </div>
 </div>
 <?php } ?>
