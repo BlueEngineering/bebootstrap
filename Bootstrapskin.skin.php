@@ -301,33 +301,33 @@ class StrappingTemplate extends BaseTemplate {
                              <!--   <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Beschreibung</h3></li>
-                                        <li><a data-description="" href="Baukasten:Grundgedanken">Grundgedanken</a></li>
-                                        <li><a data-description="" href="Baukasten:Themen">Themen</a></li>
-                                        <li><a data-description="" href="Baukasten:Didaktik">Didaktik</a></li>
+                                        <li><a data-description="" href=":Baukasten:Grundgedanken">Grundgedanken</a></li>
+                                        <li><a data-description="" href=":Baukasten:Themen">Themen</a></li>
+                                        <li><a data-description="" href=":Baukasten:Didaktik">Didaktik</a></li>
                                         </ul>
                                     </div> -->
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Bausteine</h3></li>
-                                        <li><a data-description="" href="Baukasten:Bausteine Beschreibung">Beschreibung</a></li>
-                                        <li><a data-description="" href="Baukasten:Ausgzeichnete Bausteine">Ausgzeichnete</a></li>
-                                        <li><a data-description="" href="Baukasten:Bausteine Liste">Liste aller Bausteine</a></li>
+                                        <li><a data-description="" href=":Baukasten:Bausteine Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href=":Baukasten:Ausgzeichnete Bausteine">Ausgzeichnete</a></li>
+                                        <li><a data-description="" href=":Category:Bausteine">Liste aller Bausteine</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Wissensspeicher</h3></li>
-                                        <li><a data-description="" href="Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
-                                        <li><a data-description="" href="Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
-                                        <li><a data-description="" href="Baukasten:Wissensspeicher Liste">Liste aller Bausteine</a></li>
+                                        <li><a data-description="" href=":Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href=":Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
+                                        <li><a data-description="" href=":Category:Wissensspeicher">Liste aller Bausteine</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Sonstige</h3></li>
-                                        <li><a data-description="" href="Baukasten:Spiele">Spiele</a></li>
-                                        <li><a data-description="" href="Baukasten:E-Learning">E-Learning</a></li>
-                                        <li><a data-description="" href="Baukasten:Exkursionen">Exkursionen</a></li>
+                                        <li><a data-description="" href=":Baukasten:Spiele">Spiele</a></li>
+                                        <li><a data-description="" href=":Baukasten:E-Learning">E-Learning</a></li>
+                                        <li><a data-description="" href=":Baukasten:Exkursionen">Exkursionen</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
