@@ -319,7 +319,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <li><h3 class="title">Wissensspeicher</h3></li>
                                         <li><a data-description="" href=":Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
                                         <li><a data-description="" href=":Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
-                                        <li><a data-description="" href=":Category:Wissensspeicher">Liste aller Bausteine</a></li>
+                                        <li><a data-description="" href=":Category:Wissensspeicher">Liste aller Wissensspeicher</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
