@@ -270,9 +270,9 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Hamburg</h3></li>
-                                        <li><a data-description="" href=":Hamburg:Seminar">Allgemein</a></li>
-                                        <li><a data-description="" href=":Hamburg:2015_2">Wintersemester 2015/2016</a></li>
-                                        <li><a data-description="" href=":Hamburg:Seminar_Archiv">Archiv</a></li>
+                                        <li><a data-description="" href=":HHSem:Seminar">Allgemein</a></li>
+                                        <li><a data-description="" href=":HHSem:2015_2">Wintersemester 2015/2016</a></li>
+                                        <li><a data-description="" href=":HHSem:Seminar_Archiv">Archiv</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
