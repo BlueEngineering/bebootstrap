@@ -223,17 +223,17 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Berlin</h3></li>
-                                        <li><a data-description="" href="Berlin:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href="Berlin:Aktivitäten">Aktivitäten</a></li>
-                                        <li><a data-description="" href="Berlin:Kontakt">Kontakt</a></li>
+                                        <li><a data-description="" href=":Berlin:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href=":Berlin:Aktivitäten">Aktivitäten</a></li>
+                                        <li><a data-description="" href=":Berlin:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Hamburg</h3></li>
-                                        <li><a data-description="" href="Hamburg:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href="Hamburg:Aktivitäten">Aktivitäten</a></li>
-                                        <li><a data-description="" href="Hamburg:Kontakt">Kontakt</a></li>
+                                        <li><a data-description="" href=":Hamburg:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href=":Hamburg:Aktivitäten">Aktivitäten</a></li>
+                                        <li><a data-description="" href=":Hamburg:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
@@ -560,7 +560,11 @@ class StrappingTemplate extends BaseTemplate {
         $toolTip = Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) );
 ?>               
               <div class="pull-right"> 
-                  <div class="col-xs-1" <a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>><img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 4.5em;"></a></div>
+                <div class="col-xs-1">
+				  	<a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>>
+						<img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 200px;margin-top: 3.2em;margin-right: 4.5em;">
+					</a>
+				</div>
               </div>
 <?php
   }
@@ -598,6 +602,7 @@ class StrappingTemplate extends BaseTemplate {
       
           <?php } 
         break;
+		
         case 'PAGE':
           $theMsg = 'namespaces';
           $theData = array_merge($this->data['namespace_urls'], $this->data['view_urls']);
@@ -622,6 +627,7 @@ class StrappingTemplate extends BaseTemplate {
             
       <?php
         break;
+		
         case 'TOOLBOX':
           $theMsg = 'toolbox';
           $theData = array_reverse($this->getToolbox());
@@ -647,6 +653,7 @@ class StrappingTemplate extends BaseTemplate {
        
           <?php
         break;
+		
         case 'VARIANTS':
           $theMsg = 'variants';
           $theData = $this->data['variant_urls'];
@@ -664,6 +671,7 @@ class StrappingTemplate extends BaseTemplate {
             </ul>
           <?php }
         break;
+		
         case 'VIEWS':
           $theMsg = 'views';
           $theData = $this->data['view_urls'];
@@ -681,6 +689,7 @@ class StrappingTemplate extends BaseTemplate {
             </ul>
           <?php }
         break;
+		
         case 'ACTIONS':
           $theMsg = 'actions';
           $theData = array_reverse($this->data['action_urls']);
@@ -703,6 +712,7 @@ class StrappingTemplate extends BaseTemplate {
             <?php
           }
         break;
+		
         case 'PERSONAL':
           $theMsg = 'personaltools';
           $theData = $this->getPersonalTools();
@@ -796,20 +806,21 @@ class StrappingTemplate extends BaseTemplate {
          </li>
          </ul></ul><?php
         break;
-/*
-case 'SEARCH':
-         ?>
+	
+	case 'SEARCH': ?>
      <div class="input-group has-light hidden-xs hidden-sm">
-            <form class="navbar-search" action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
-              <input id="searchInput" class="form-control" type="search" accesskey="f" title="<?php $this->text('searchtitle'); ?>" placeholder="<?php $this->msg('search'); ?>" name="search" value="<?php echo htmlspecialchars ($this->data['search']); ?>">
-       <span class="input-group-btn">
-              <?php echo $this->makeSearchButton( 'go', array( 'id' => 'mw-searchButton', 'class' => 'searchButton btn btn-default' ) ); ?>
-       </span>
+            <form class="navbar-search" action="<?php $this->text( 'wgScript' ); ?>" id="searchform">
+					<input id="searchInput" class="form-control" type="search" accesskey="f" title="<?php $this->text('searchtitle'); ?>" placeholder="<?php $this->msg('search'); ?>" name="search" value="<?php echo htmlspecialchars ($this->data['search']); ?>">
+					<span class="input-group-btn">
+					<button type="submit" name="go" title="Gehe direkt zu der Seite, die exakt dem eingegebenen Namen entspricht." id="mw-searchButton" class="searchButton btn btn-default">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+					</span>
             </form>
      </div>
           <?php
         break;
-*/
+
         case 'SIDEBAR':
           foreach ( $this->data['sidebar'] as $name => $content ) {
             if ( !isset($content) ) {
@@ -838,6 +849,7 @@ case 'SEARCH':
             if ( $wgBootstrapSkinDisplaySidebarNavigation ) {?>                </ul>              </li><?php
             }          }
         break;
+		
         case 'LANGUAGES':
           $theMsg = 'otherlanguages';
           $theData = $this->data['language_urls']; ?>
