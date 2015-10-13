@@ -260,29 +260,29 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Berlin</h3></li>
-                                        <li><a data-description="" href="BSem:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href="BSem:Prozesshandbuch">Prozesshandbuch</a></li>
-                                        <li><a data-description="" href="BSem:Evaluation">Evaluation</a></li>
-                                        <li><a data-description="" href="BSem:2015_2">Wintersemester 2015/2016</a></li>
-                                        <li><a data-description="" href="BSem:Archiv">Archiv</a></li>
+                                        <li><a data-description="" href=":BSem:Allgemein">Allgemein</a></li>
+                                        <li><a data-description="" href=":BSem:Prozesshandbuch">Prozesshandbuch</a></li>
+                                        <li><a data-description="" href=":BSem:Evaluation">Evaluation</a></li>
+                                        <li><a data-description="" href=":BSem:2015_2">Wintersemester 2015/2016</a></li>
+                                        <li><a data-description="" href=":BSem:Archiv">Archiv</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Hamburg</h3></li>
-                                        <li><a data-description="" href="Hamburg:Seminar">Allgemein</a></li>
-                                        <li><a data-description="" href="Hamburg:2015_2">Wintersemester 2015/2016</a></li>
-                                        <li><a data-description="" href="Hamburg:Seminar_Archiv">Archiv</a></li>
+                                        <li><a data-description="" href=":Hamburg:Seminar">Allgemein</a></li>
+                                        <li><a data-description="" href=":Hamburg:2015_2">Wintersemester 2015/2016</a></li>
+                                        <li><a data-description="" href=":Hamburg:Seminar_Archiv">Archiv</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Bildungsangebote</h3></li>
-                                        <li><a data-description="" href="BSem:Allgemein Bildungsangebot">Allgemein</a></li>
-                                        <li><a data-description="" href="BSem:25_Fragen_Bildungsangebot">25 Fragen</a></li>
-                                        <li><a data-description="" href="BSem:Sozial-Ökologische_Transformation_Bildungsangebot">sozial-ökologische Transformation</a></li>
-                                        <li><a data-description="" href="BSem:Konversion_Bildungsangebot">Demokratische Konversion</a></li>
-                                        <li><a data-description="" href="BSem:Betzavta_Bildungsangebot">Betzavta - Demokratiepädagogik</a></li>
+                                        <li><a data-description="" href=":BSem:Allgemein Bildungsangebot">Allgemein</a></li>
+                                        <li><a data-description="" href=":BSem:25_Fragen_Bildungsangebot">25 Fragen</a></li>
+                                        <li><a data-description="" href=":BSem:Sozial-Ökologische_Transformation_Bildungsangebot">sozial-ökologische Transformation</a></li>
+                                        <li><a data-description="" href=":BSem:Konversion_Bildungsangebot">Demokratische Konversion</a></li>
+                                        <li><a data-description="" href=":BSem:Betzavta_Bildungsangebot">Betzavta - Demokratiepädagogik</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
@@ -812,8 +812,8 @@ class StrappingTemplate extends BaseTemplate {
             <form class="navbar-search" action="<?php $this->text( 'wgScript' ); ?>" id="searchform">
 					<input id="searchInput" class="form-control" type="search" accesskey="f" title="<?php $this->text('searchtitle'); ?>" placeholder="<?php $this->msg('search'); ?>" name="search" value="<?php echo htmlspecialchars ($this->data['search']); ?>">
 					<span class="input-group-btn">
-					<button type="submit" name="go" title="Gehe direkt zu der Seite, die exakt dem eingegebenen Namen entspricht." id="mw-searchButton" class="searchButton btn btn-default">
-						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					<button type="submit" name="go" title="Gehe direkt zu der Seite, die exakt dem eingegebenen Namen entspricht." id="mw-searchButton" class="btn btn-default">
+						<span class="glyphicon glyphicon-search"></span>
 					</button>
 					</span>
             </form>
