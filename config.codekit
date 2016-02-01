@@ -490,11 +490,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/bootstrap\/css\/bootstrap.css": {
+	"\/bootstrap\/css\/css\/custom-bootstrap.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bootstrap\/css\/bootstrap.css",
+		"inputAbbreviatedPath": "\/bootstrap\/css\/css\/custom-bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2540,7 +2540,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "André Baier",
+"lastSavedByUser": "re",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -2685,7 +2685,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "\/BE",
+	"externalServerPreviewPathAddition": "\/124",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
