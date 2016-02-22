@@ -7299,6 +7299,7 @@ hier kommt die Größe her */
 .col-sm-11,
 .col-sm-12 {
   padding: 0;
+  background-color: green;
 }
 /* PRINT SECTION from more detail: https://gist.github.com/donnierayjones/6fd9802d992b2d8d6cfd
                       less detail: http://jsbin.com/AzICaQes/5/edit?html,css,output
