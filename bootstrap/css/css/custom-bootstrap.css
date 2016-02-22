@@ -7298,7 +7298,10 @@ hier kommt die Größe her */
 .col-sm-10,
 .col-sm-11,
 .col-sm-12 {
-  padding: 0 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 /* PRINT SECTION from more detail: https://gist.github.com/donnierayjones/6fd9802d992b2d8d6cfd
                       less detail: http://jsbin.com/AzICaQes/5/edit?html,css,output
