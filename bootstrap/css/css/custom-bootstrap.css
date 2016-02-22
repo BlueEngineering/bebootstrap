@@ -6813,11 +6813,9 @@ body {
   margin: 0 auto;
 }
 /* panels.less */
-.panel-heading {
-  margin: 0 -15px;
-}
 .panel-group .panel-heading {
   border-bottom: 1px dotted #555555;
+  margin: 0 -15px;
 }
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
