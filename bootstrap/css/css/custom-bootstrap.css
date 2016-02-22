@@ -7286,6 +7286,7 @@ hier kommt die Größe her */
 .mw-content-ltr {
   font-size: 13px;
 }
+
 .col-sm-1,
 .col-sm-2,
 .col-sm-3,
@@ -7301,6 +7302,7 @@ hier kommt die Größe her */
   padding: 0;
   background-color: green;
 }
+
 /* PRINT SECTION from more detail: https://gist.github.com/donnierayjones/6fd9802d992b2d8d6cfd
                       less detail: http://jsbin.com/AzICaQes/5/edit?html,css,output
 @media print {
