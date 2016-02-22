@@ -6728,6 +6728,7 @@ button.close {
 body {
   max-width: 1100px;
   margin: 0 auto;
+  background-color: green;
 }
 /* panels.less */
 .panel-group .panel-heading {
