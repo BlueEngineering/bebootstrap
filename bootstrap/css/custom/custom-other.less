@@ -36,6 +36,7 @@ body {
   box-shadow: 0;
 }
 
+
 /* navbar.less */
 
 .navbar {
@@ -257,7 +258,73 @@ fetter sind - wie die h3 */
 	margin-right: 0 px;
 }
 
+// bei Spezial:Alle_Seiten gepunktete Linien
+
+ul.mw-allpages-chunk {
+  margin: 15px -3px 0 -15px;
+}
+
+ul.mw-allpages-chunk li {
+  border-top: 1px dotted @gray-light;
+}
+
+ul.mw-allpages-chunk a {
+  line-height: 1.9;
+  margin-left: 15px;
+}
+
+// Fieldset für Spezialseiten wichtig
+
+#mw-content-text fieldset {
+  margin-right: 40px;
+  margin-left: -15px;
+  margin-top: 15px;
+}
+
+#mw-content-text fieldset > legend {
+  border-bottom: 1px dotted @gray;
+  padding-left: 15px;
+}
+
+#mw-content-text fieldset > table {
+  margin-left: 15px;
+}
+
+#mw-content-text .mw-htmlform-submit-buttons {
+  margin-left: 15px;
+}
+
+#mw-content-text fieldset > label {
+  margin-left: 15px;
+}
+
+// Tabelle die in Spezialseiten auftaucht
+
+td.mw-label {
+  text-align: left;
+}
+
+// Datei Ansicht
+
+ul#filetoc {
+  margin-left: -14px;
+  width: 97%;
+  background-color: @gray-lightest;
+}
+
+
+
+// wird bei u.a. bei Spezial:Alle_Seiten benutzt
+
+.nolayout {
+  margin: 0 -60px 0 0px;
+}
+
 /* Footer at the bottom of each page */
+
+#footer {
+  margin: 0 -9px 0 -8px;
+}
 
 #footer .row  {
   text-align: center; 
@@ -487,6 +554,11 @@ hier kommt die Größe her */
 .row-30 + h1 {
   padding-top: 0px;
 }
+
+.noarticletext {
+  margin: 20px 30px 0 30px;
+}
+
 ////////////////////////////////////
 /* Hier regiert die load.php rein */
 ////////////////////////////////////
