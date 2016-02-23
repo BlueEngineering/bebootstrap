@@ -7073,6 +7073,9 @@ fetter sind - wie die h3 */
   margin-left: -30px;
   margin-right: -30px;
 }
+.row-0 {
+  margin: 0;
+}
 /* Col Correction - as above .row-30 - necessary on Mainpage with two columns so that H1 et al. are in line with menu */
 .col-correction {
   margin: 0;
@@ -7082,10 +7085,53 @@ fetter sind - wie die h3 */
 #innerbodycontent {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 0 px;
-  margin-right: 0 px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+ul.mw-allpages-chunk {
+  margin: 15px -3px 0 -15px;
+}
+ul.mw-allpages-chunk li {
+  border-top: 1px dotted #777777;
+}
+ul.mw-allpages-chunk a {
+  line-height: 1.9;
+  margin-left: 15px;
+}
+#mw-content-text fieldset {
+  margin-right: 40px;
+  margin-left: -15px;
+  margin-top: 15px;
+}
+#mw-content-text fieldset > legend {
+  border-bottom: 1px dotted #777777;
+  padding-left: 15px;
+  width: 106%;
+  font-size: 25px;
+  font-weight: 600;
+  color: #555555;
+}
+#mw-content-text fieldset > table {
+  margin-left: 15px;
+}
+#mw-content-text .mw-htmlform-submit-buttons {
+  margin-left: 15px;
+}
+#mw-content-text fieldset > label {
+  margin-left: 15px;
+}
+td.mw-label {
+  text-align: left;
+}
+ul#filetoc {
+  margin-left: -11px;
+  width: 102%;
+  background-color: #f9f9f9;
 }
 /* Footer at the bottom of each page */
+#footer {
+  margin: 0 -9px 0 -8px;
+}
 #footer .row {
   text-align: center;
 }
@@ -7270,6 +7316,9 @@ hier kommt die Größe her */
 }
 .row-30 + h1 {
   padding-top: 0px;
+}
+.noarticletext {
+  margin: 20px 30px 0 30px;
 }
 /* Hier regiert die load.php rein */
 .mw-content-ltr ul {
