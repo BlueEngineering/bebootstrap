@@ -6514,6 +6514,89 @@ button.close {
     bottom: 20px;
   }
 }
+.clearfix:before,
+.clearfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+.btn-toolbar:before,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
+.nav:before,
+.nav:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after,
+.navbar-collapse:before,
+.navbar-collapse:after,
+.pager:before,
+.pager:after,
+.panel-body:before,
+.panel-body:after,
+.modal-footer:before,
+.modal-footer:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.dl-horizontal dd:after,
+.container:after,
+.container-fluid:after,
+.row:after,
+.form-horizontal .form-group:after,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:after,
+.nav:after,
+.navbar:after,
+.navbar-header:after,
+.navbar-collapse:after,
+.pager:after,
+.panel-body:after,
+.modal-footer:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
 @-ms-viewport {
   width: device-width;
 }
@@ -6990,6 +7073,9 @@ fetter sind - wie die h3 */
   margin-left: -30px;
   margin-right: -30px;
 }
+.row-0 {
+  margin: 0;
+}
 /* Col Correction - as above .row-30 - necessary on Mainpage with two columns so that H1 et al. are in line with menu */
 .col-correction {
   margin: 0;
@@ -6999,8 +7085,8 @@ fetter sind - wie die h3 */
 #innerbodycontent {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 0 px;
-  margin-right: 0 px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 ul.mw-allpages-chunk {
   margin: 15px -3px 0 -15px;
@@ -7018,8 +7104,12 @@ ul.mw-allpages-chunk a {
   margin-top: 15px;
 }
 #mw-content-text fieldset > legend {
-  border-bottom: 1px dotted #555555;
+  border-bottom: 1px dotted #777777;
   padding-left: 15px;
+  width: 106%;
+  font-size: 25px;
+  font-weight: 600;
+  color: #555555;
 }
 #mw-content-text fieldset > table {
   margin-left: 15px;
@@ -7034,12 +7124,9 @@ td.mw-label {
   text-align: left;
 }
 ul#filetoc {
-  margin-left: -14px;
-  width: 97%;
+  margin-left: -11px;
+  width: 102%;
   background-color: #f9f9f9;
-}
-.nolayout {
-  margin: 0 -60px 0 0px;
 }
 /* Footer at the bottom of each page */
 #footer {
@@ -7295,89 +7382,6 @@ hier kommt die Größe her */
 
 }
   /* ENDE PRINT SECTION */
-.clearfix:before,
-.clearfix:after,
-.dl-horizontal dd:before,
-.dl-horizontal dd:after,
-.container:before,
-.container:after,
-.container-fluid:before,
-.container-fluid:after,
-.row:before,
-.row:after,
-.form-horizontal .form-group:before,
-.form-horizontal .form-group:after,
-.btn-toolbar:before,
-.btn-toolbar:after,
-.btn-group-vertical > .btn-group:before,
-.btn-group-vertical > .btn-group:after,
-.nav:before,
-.nav:after,
-.navbar:before,
-.navbar:after,
-.navbar-header:before,
-.navbar-header:after,
-.navbar-collapse:before,
-.navbar-collapse:after,
-.pager:before,
-.pager:after,
-.panel-body:before,
-.panel-body:after,
-.modal-footer:before,
-.modal-footer:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after,
-.dl-horizontal dd:after,
-.container:after,
-.container-fluid:after,
-.row:after,
-.form-horizontal .form-group:after,
-.btn-toolbar:after,
-.btn-group-vertical > .btn-group:after,
-.nav:after,
-.navbar:after,
-.navbar-header:after,
-.navbar-collapse:after,
-.pager:after,
-.panel-body:after,
-.modal-footer:after {
-  clear: both;
-}
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.pull-right {
-  float: right !important;
-}
-.pull-left {
-  float: left !important;
-}
-.hide {
-  display: none !important;
-}
-.show {
-  display: block !important;
-}
-.invisible {
-  visibility: hidden;
-}
-.text-hide {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-.hidden {
-  display: none !important;
-}
-.affix {
-  position: fixed;
-}
 .hadron .dropdown a,
 .hadron .dropdown-menu a {
   color: #555555;

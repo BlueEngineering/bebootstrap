@@ -244,6 +244,10 @@ fetter sind - wie die h3 */
 	margin-right: -30px;
 }
 
+.row-0 {
+  margin: 0;
+}
+
 /* Col Correction - as above .row-30 - necessary on Mainpage with two columns so that H1 et al. are in line with menu */
 .col-correction {
   margin: 0;
@@ -254,8 +258,8 @@ fetter sind - wie die h3 */
 #innerbodycontent {
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-left: 0 px;
-	margin-right: 0 px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 // bei Spezial:Alle_Seiten gepunktete Linien
@@ -282,8 +286,12 @@ ul.mw-allpages-chunk a {
 }
 
 #mw-content-text fieldset > legend {
-  border-bottom: 1px dotted @gray;
+  border-bottom: 1px dotted @gray-light;
   padding-left: 15px;
+  width: 106%;
+  font-size: 25px;
+  font-weight: 600;
+  color: @gray;
 }
 
 #mw-content-text fieldset > table {
@@ -307,8 +315,8 @@ td.mw-label {
 // Datei Ansicht
 
 ul#filetoc {
-  margin-left: -14px;
-  width: 97%;
+  margin-left: -11px;
+  width: 102%;
   background-color: @gray-lightest;
 }
 
@@ -316,9 +324,6 @@ ul#filetoc {
 
 // wird bei u.a. bei Spezial:Alle_Seiten benutzt
 
-.nolayout {
-  margin: 0 -60px 0 0px;
-}
 
 /* Footer at the bottom of each page */
 
