@@ -39,7 +39,7 @@ class SkinBootstrap extends SkinTemplate {
   $out->addHeadItem( 'analytics',
             '<script type="text/javascript">'."
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-2992653-31']);
+  _gaq.push(['_setAccount', 'UA-22632659-2']);
   _gaq.push(['_setDomainName', 'blue-eng.km.tu-berlin.de']);
   _gaq.push(['_setAllowHash', 'false']);
   _gaq.push(['_trackPageview']);
