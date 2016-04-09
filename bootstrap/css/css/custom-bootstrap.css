@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600);
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -7038,7 +7038,7 @@ h1 + h2 {
 }
 h3 {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 20px;
   margin-bottom: 5px;
   color: #555555;
@@ -7063,7 +7063,7 @@ ul {
 fetter sind - wie die h3 */
 .externe-news-startseite h2 {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: -15px;
   margin-bottom: 5px;
   border: 0;
@@ -7132,8 +7132,8 @@ ul#filetoc {
 }
 .bs-infobox-links {
   color: #555555;
-  font-weight: 700;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 12px;
   text-align: left;
 }
 .bs-infobox-rechts {
@@ -7353,7 +7353,7 @@ hier kommt die Größe her */
 }
 .klappe-h2-zeit {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   color: #555555;
 }
 .klappe-offen > a {
