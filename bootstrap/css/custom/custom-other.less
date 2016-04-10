@@ -100,6 +100,11 @@ font-size: 12px;
   
 }
 
+navbar-toggle {
+      margin-top: 4.5px;
+      margin-bottom: 2.5px;
+}
+
 // Justified nav links
 // -------------------------
 
@@ -224,10 +229,14 @@ ul {
 .weiterlesen {
   float: right;
   font-weight: 600;
+  margin-top: -25px;
 }
 
 /* Externe News - Startseite - damit die Überschriften h2 kleiner werden und
 fetter sind - wie die h3 */
+.externe-news-startseite h1 {
+  font-size: @font-size-h2;
+}
 
 .externe-news-startseite h2 {
   font-size: @font-size-base;
@@ -273,6 +282,7 @@ ul.mw-allpages-chunk li {
 ul.mw-allpages-chunk a {
   line-height: 1.9;
   margin-left: 15px;
+  font-size: @font-size-base;
 }
 
 // Fieldset für Spezialseiten wichtig
