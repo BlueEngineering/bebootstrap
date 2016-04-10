@@ -7059,13 +7059,13 @@ ul {
 	or
    Attacking Mediawiki directly */
 .be-news-startseite p:first-child {
-  margin-top: -9px;
+  margin-top: -55px;
 }
 /* Weiterlesen für News etc. */
 .weiterlesen {
   float: right;
   font-weight: 600;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 /* Externe News - Startseite - damit die Überschriften h2 kleiner werden und
 fetter sind - wie die h3 */
