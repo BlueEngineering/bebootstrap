@@ -7058,10 +7058,10 @@ ul {
 /* NOT YET LESS, STILL CSS
 	or
    Attacking Mediawiki directly */
-/* Weiterlesen für News etc. */
-.be-news-startseite h2:first-child {
-  margin-top: -27px;
+.be-news-startseite p:first-child {
+  margin: 0px;
 }
+/* Weiterlesen für News etc. */
 .weiterlesen {
   float: right;
   font-weight: 600;
