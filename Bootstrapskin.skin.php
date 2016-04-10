@@ -562,7 +562,7 @@ class StrappingTemplate extends BaseTemplate {
               <div class="pull-right"> 
                 <div class="col-xs-1">
 				  	<a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>" <?php echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) ) ?>>
-						<img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 150px;margin-top: 3.2em;margin-right: 4.5em;">
+						<img src="<?php $this->text( 'logopath' ); ?>" alt="<?php $this->html('sitename'); ?>" style="width: 150px;margin-top: 2.4em;margin-right: 7.5em;margin-bottom: 0,5em;">
 					</a>
 				</div>
               </div>
