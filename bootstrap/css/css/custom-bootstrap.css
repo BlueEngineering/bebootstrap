@@ -7059,7 +7059,7 @@ ul {
 	or
    Attacking Mediawiki directly */
 .be-news-startseite p:first-child {
-  margin: 0px;
+  margin-top: -9px;
 }
 /* Weiterlesen für News etc. */
 .weiterlesen {
