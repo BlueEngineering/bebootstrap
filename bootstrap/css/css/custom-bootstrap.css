@@ -7060,12 +7060,12 @@ ul {
    Attacking Mediawiki directly */
 /* Weiterlesen für News etc. */
 .be-news-startseite h2:first-child {
-  margin-top: 0px;
+  margin-top: -27px;
 }
 .weiterlesen {
   float: right;
   font-weight: 600;
-  margin-top: -25px;
+  margin-top: 0px;
 }
 /* Externe News - Startseite - damit die Überschriften h2 kleiner werden und
 fetter sind - wie die h3 */
