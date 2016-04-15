@@ -7396,6 +7396,17 @@ hier kommt die Größe her */
 .mw-content-ltr {
   font-size: 12px;
 }
+.mw-datatable th {
+  background-color: #eeeeee;
+}
+.mw-datatable,
+.mw-datatable td,
+.mw-datatable th {
+  padding: 0.5em;
+}
+.mw-datatable tr:hover td {
+  background-color: #eeeeee;
+}
 /* PRINT SECTION from https://gist.github.com/donnierayjones/6fd9802d992b2d8d6cfd
 @media print {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
