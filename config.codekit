@@ -2549,7 +2549,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "re",
+"lastSavedByUser": "André Baier",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -2694,7 +2694,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "\/124",
+	"externalServerPreviewPathAddition": "\/BE",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
