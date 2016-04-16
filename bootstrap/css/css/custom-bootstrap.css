@@ -7065,7 +7065,7 @@ ul {
 .weiterlesen {
   float: right;
   font-weight: 600;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 /* Externe News - Startseite - damit die Überschriften h2 kleiner werden und
 fetter sind - wie die h3 */
@@ -7738,7 +7738,6 @@ hier kommt die Größe her */
   font-size: 13px;
   font-weight: bold;
   margin-top: 15px;
-  text-transform: uppercase;
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 10px;
   color: #777777;
