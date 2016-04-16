@@ -186,13 +186,13 @@ class StrappingTemplate extends BaseTemplate {
                                         <ul>
                                         <li><h3 class="title">Projektwerkstatt</h3></li>
                                         <li><a data-description="" href=":Berlin:Allgemein">Allgemeine Informationen</a></li>
-                                        <li><a data-description="" href=":Berlin:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Seminar</h3></li>
                                         <li><a data-description="" href=":TUB:Seminar:Geschichte">Geschichte des Seminars</a></li>
+                                        <li><a data-description="" href=":TUB:Seminar:Allgemeine_Informationen">Allgemeine Informationen</a></li>
                                         <li><a data-description="" href=":TUB:Seminar:2016_1">Sommersemester 2016</a></li>
                                         </ul>
                                     </div>
