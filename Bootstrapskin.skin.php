@@ -172,183 +172,54 @@ class StrappingTemplate extends BaseTemplate {
             <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left"> 
                 <ul class="nav navbar-nav">
                     <!-- Mega Menu -->
-<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Über uns<b class="caret"></b></a>
+<li class="dropdown hadron-fw"><a data-description="" href="Grundgedanken">Grundgedanken</a>
+
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Berlin<b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
-                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
+                                        <p>Die Blue Engineering Gruppe an der Technischen Universität Berlin bietet zum einen die Projektwerkstatt an, in der Studierende recht frei und selbstbestimmt Themen bearbeiten</p>
+                                        <p>Zusätzlich wird jedes Semester ein interaktives Seminar mit einer Kapazität von 100 Teilnehmenden angeboten</p>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
-                                        <li><h3 class="title">Blue Engineering</h3></li>
-                                        <li><a data-description="" href="Grundgedanken">Grundgedanken</a></li>
-                                        <li><a data-description="" href="Hochschulen">Hochschulen</a></li>
-                                        <li><a data-description="" href="Betriebe">Betriebe</a></li>
-                                        <li><a data-description="" href="Einzelpersonen">Einzelpersonen</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Themen</h3></li>
-                                        <li><a data-description="" href="Technik">Technik</a></li>
-                                        <li><a data-description="" href="Natur">Natur</a></li>
-                                        <li><a data-description="" href="Individuum">Individuen</a></li>
-                                        <li><a data-description="" href="Gesellschaft">Gesellschaft</a></li>
-                                        <li><a data-description="" href="Demokratie">Demokratie</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Öffentlichkeitsarbeit</h3></li>
-                                        <li><a data-description="" href="Veranstaltungen">Veranstaltungen</a></li>
-                                        <li><a data-description="" href="Andere_über_uns">Andere über uns</a></li>
-                                        <li><a data-description="" href="The_Blue_Engineer">The Blue Engineer</a></li>
-                                        <li><a data-description="" href="Pressemappe">Pressemappe</a></li>
-                                        </ul>
-                                    </div>
-                                </div><!-- end row -->
-                            </li><!-- end grid demo -->
-                        </ul><!-- end drop down menu -->
-      </li><!-- end list elements -->
-   <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Vor Ort<b class="caret"></b></a>
-                        <ul class="dropdown-menu fullwidth">
-                            <li class="hadron-content withdesc">
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
-                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Berlin</h3></li>
-                                        <li><a data-description="" href=":Berlin:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href=":Berlin:Aktivitäten">Aktivitäten</a></li>
+                                        <li><h3 class="title">Projektwerkstatt</h3></li>
+                                        <li><a data-description="" href=":Berlin:Allgemein">Allgemeine Informationen</a></li>
                                         <li><a data-description="" href=":Berlin:Kontakt">Kontakt</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
-                                        <li><h3 class="title">Hamburg</h3></li>
-                                        <li><a data-description="" href=":Hamburg:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href=":Hamburg:Aktivitäten">Aktivitäten</a></li>
-                                        <li><a data-description="" href=":Hamburg:Kontakt">Kontakt</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Eigene Ortsgruppe gründen</h3></li>
-                                        <li><a data-description="" href="Starter-Kit">Starter-Kit</a></li>
-                                        <li><a data-description="" href="Unterstützung">Unterstützung</a></li>
-                                        <li><a data-description="" href="Betriebsgruppe_gründen">Betriebsgruppe gründen</a></li>
+                                        <li><h3 class="title">Seminar</h3></li>
+                                        <li><a data-description="" href="TUB:Seminar:Geschichte">Geschichte des Seminars</a></li>
+                                        <li><a data-description="" href="TUB:Seminar:2016_1">Sommersemester 2016</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
-      </li><!-- end list elements -->
-  <!-- end list elements -->
-  <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Seminar<b class="caret"></b></a>
-                        <ul class="dropdown-menu fullwidth">
-                            <li class="hadron-content withdesc">
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
-                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Berlin</h3></li>
-                                        <li><a data-description="" href=":BSem:Allgemein">Allgemein</a></li>
-                                        <li><a data-description="" href=":BSem:Prozesshandbuch">Prozesshandbuch</a></li>
-                                        <li><a data-description="" href=":BSem:Evaluation">Evaluation</a></li>
-                                        <li><a data-description="" href=":BSem:2015_2">Wintersemester 2015/2016</a></li>
-                                        <li><a data-description="" href=":BSem:Archiv">Archiv</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Hamburg</h3></li>
-                                        <li><a data-description="" href=":HHSem:Seminar">Allgemein</a></li>
-                                        <li><a data-description="" href=":HHSem:2015_2">Wintersemester 2015/2016</a></li>
-                                        <li><a data-description="" href=":HHSem:Seminar_Archiv">Archiv</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Bildungsangebote</h3></li>
-                                        <li><a data-description="" href=":BSem:Allgemein Bildungsangebot">Allgemein</a></li>
-                                        <li><a data-description="" href=":BSem:25_Fragen_Bildungsangebot">25 Fragen</a></li>
-                                        <li><a data-description="" href=":BSem:Sozial-Ökologische_Transformation_Bildungsangebot">sozial-ökologische Transformation</a></li>
-                                        <li><a data-description="" href=":BSem:Konversion_Bildungsangebot">Demokratische Konversion</a></li>
-                                        <li><a data-description="" href=":BSem:Betzavta_Bildungsangebot">Betzavta - Demokratiepädagogik</a></li>
-                                        </ul>
-                                    </div>
-                                </div><!-- end row -->
-                            </li><!-- end grid demo -->
-                        </ul><!-- end drop down menu -->
-      </li><!-- end list elements -->
-  <!-- end list elements -->  
-<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Baukasten<b class="caret"></b></a>
-                        <ul class="dropdown-menu fullwidth">
-                            <li class="hadron-content withdesc">
-                                <div class="row">
-                                    <div class="col-sm-3">
-                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
-                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
-                                    </div>
-                             <!--   <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Beschreibung</h3></li>
-                                        <li><a data-description="" href=":Baukasten:Grundgedanken">Grundgedanken</a></li>
-                                        <li><a data-description="" href=":Baukasten:Themen">Themen</a></li>
-                                        <li><a data-description="" href=":Baukasten:Didaktik">Didaktik</a></li>
-                                        </ul>
-                                    </div> -->
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Bausteine</h3></li>
-                                        <li><a data-description="" href=":Baukasten:Bausteine Beschreibung">Beschreibung</a></li>
-                                        <li><a data-description="" href=":Baukasten:Ausgzeichnete Bausteine">Ausgzeichnete</a></li>
-                                        <li><a data-description="" href=":Category:Bausteine">Liste aller Bausteine</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Wissensspeicher</h3></li>
-                                        <li><a data-description="" href=":Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
-                                        <li><a data-description="" href=":Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
-                                        <li><a data-description="" href=":Category:Wissensspeicher">Liste aller Wissensspeicher</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <ul>
-                                        <li><h3 class="title">Sonstige</h3></li>
-                                        <li><a data-description="" href=":Baukasten:Spiele">Spiele</a></li>
-                                        <li><a data-description="" href=":Baukasten:E-Learning">E-Learning</a></li>
-                                        <li><a data-description="" href=":Baukasten:Exkursionen">Exkursionen</a></li>
-                                        </ul>
-                                    </div>
-                                </div><!-- end row -->
-                            </li><!-- end grid demo -->
-                        </ul><!-- end drop down menu -->
-      </li><!-- end list elements -->
-  <!-- end list elements -->  
+      </li>
+
+<li class="dropdown hadron-fw"><a data-description="" href="Hamburg">Hamburg</a>
+
+<li class="dropdown hadron-fw"><a data-description="" href=":Baukasten:Startseite">Baukasten</a>
+
+<li class="dropdown hadron-fw"><a data-description="" href="English">English</a>
 
 <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
-                                    <div class="col-md-3">
-                                      <h3 class="title"><i class="fa fa-book"></i>  Page</h3>
+                                    <div class="col-sm-3">
+                                      <h3 class="title"><i class="fa fa-book"></i>  Seite</h3>
                                         <ul>
                                         <li><?php $this->renderNavigation( array( 'EDIT' ) );?></li>
                                         <li aria-haspopup="true"><?php $this->renderNavigation( array( 'PAGE' ) );?></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
-                                      <h3 class="title"><i class="fa fa-flash"></i> Personal</h3>
+                                      <h3 class="title"><i class="fa fa-flash"></i> Benutzer_in</h3>
                                         <ul>
                                         <li aria-haspopup="true"><?php $this->renderNavigation( array( 'PERSONALNAV' ) );?></li>
                                         </ul>
@@ -356,19 +227,23 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                       <h3 class="title"><i class="fa fa-flash"></i> Actions</h3>
                                         <ul>
+                                        <li><a href="http://blue-eng.km.tu-berlin.de/index.php/Spezial:Suche"><i class="fa fa-search"></i> Suche</a></li>
                                         <li aria-haspopup="true"><?php $this->renderNavigation( array( 'ACTIONS' ) );?></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
-                                      <h3 class="title"><i class="fa fa-wrench"></i> Tools</h3>
+                                      <h3 class="title"><i class="fa fa-wrench"></i> Werkzeug</h3>
                                         <ul>
                                         <li aria-haspopup="true"><?php if ( !isset( $portals['TOOLBOX'] ) ) {$this->renderNavigation( array( 'TOOLBOX' ) );?></li>
                                         </ul>
                                     </div>
-                                </div><!-- end row -->
+                                    
+                                </div><!-- end row -->                               
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
       </li><!-- end list elements -->
+
+      
       <div id="defaultmenu" class="navbar-collapse collapse col-xs-10 pull-right fullwidth">
     <ul>
       <!-- start search bar -->
@@ -871,3 +746,52 @@ class StrappingTemplate extends BaseTemplate {
     }
   }
 }
+
+
+/* 
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Baukasten<b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <p>Dies hier sind alles noch Platzhaltertext und Platzhalterlinks, die sich im Laufe der nächsten Tage/Wochen füllen werden.</p>
+                                        <p>Wir gehen davon aus, dass wir bis Weihnachten eine vollfunktionsfähige Webseite habe. Rückmeldungen bitte an admin@blue-engineering.org</p>
+                                    </div>
+                             <!--   <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Beschreibung</h3></li>
+                                        <li><a data-description="" href=":Baukasten:Grundgedanken">Grundgedanken</a></li>
+                                        <li><a data-description="" href=":Baukasten:Themen">Themen</a></li>
+                                        <li><a data-description="" href=":Baukasten:Didaktik">Didaktik</a></li>
+                                        </ul>
+                                    </div> -->
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Bausteine</h3></li>
+                                        <li><a data-description="" href=":Baukasten:Bausteine Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href=":Baukasten:Ausgzeichnete Bausteine">Ausgzeichnete</a></li>
+                                        <li><a data-description="" href=":Category:Bausteine">Liste aller Bausteine</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Wissensspeicher</h3></li>
+                                        <li><a data-description="" href=":Baukasten:Wissensspeicher Beschreibung">Beschreibung</a></li>
+                                        <li><a data-description="" href=":Baukasten:Ausgezeichnete Wissensspeicher">Ausgezeichnete</a></li>
+                                        <li><a data-description="" href=":Category:Wissensspeicher">Liste aller Wissensspeicher</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                        <li><h3 class="title">Sonstige</h3></li>
+                                        <li><a data-description="" href=":Baukasten:Spiele">Spiele</a></li>
+                                        <li><a data-description="" href=":Baukasten:E-Learning">E-Learning</a></li>
+                                        <li><a data-description="" href=":Baukasten:Exkursionen">Exkursionen</a></li>
+                                        </ul>
+                                    </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu -->
+      </li><!-- end list elements -->
+  <!-- end list elements -->
+*/
