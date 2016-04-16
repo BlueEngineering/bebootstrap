@@ -172,7 +172,7 @@ class StrappingTemplate extends BaseTemplate {
             <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left"> 
                 <ul class="nav navbar-nav">
                     <!-- Mega Menu -->
-<li class="dropdown hadron-fw"><a data-description="" href=":Über_uns">Über uns</a>
+<li class="dropdown hadron-fw"><a data-description="" href="Über_uns">Über uns</a>
 
 <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Berlin<b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
@@ -192,8 +192,8 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Seminar</h3></li>
-                                        <li><a data-description="" href="TUB:Seminar:Geschichte">Geschichte des Seminars</a></li>
-                                        <li><a data-description="" href="TUB:Seminar:2016_1">Sommersemester 2016</a></li>
+                                        <li><a data-description="" href=":TUB:Seminar:Geschichte">Geschichte des Seminars</a></li>
+                                        <li><a data-description="" href=":TUB:Seminar:2016_1">Sommersemester 2016</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
