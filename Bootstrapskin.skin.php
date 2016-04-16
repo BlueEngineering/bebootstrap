@@ -172,7 +172,7 @@ class StrappingTemplate extends BaseTemplate {
             <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left"> 
                 <ul class="nav navbar-nav">
                     <!-- Mega Menu -->
-<li class="dropdown hadron-fw"><a data-description="" href="Über_uns">Über uns</a>
+<li class="dropdown hadron-fw"><a data-description="" href="Ãœber_uns">Über uns</a>
 
 <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Berlin<b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
