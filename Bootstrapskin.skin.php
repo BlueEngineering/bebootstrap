@@ -154,7 +154,7 @@ class StrappingTemplate extends BaseTemplate {
         </div>
         <div class="headersubtitle hidden-xs hidden-sm">
         <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
-        <p style="font-size: 11px; font-weight: 400; background-color: coral;">Das Wiki ist noch im Aufbau / This wiki is still under construction.</p>
+        <p style="font-size: 11px; font-weight: 400; background-color: coral;">Die Homepage ist noch im Aufbau / This homepage is still under construction.</p>
         </div>
       </div>
       </div>  
