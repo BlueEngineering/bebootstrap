@@ -1256,23 +1256,23 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 21px;
+  font-size: 23px;
 }
 h2,
 .h2 {
-  font-size: 17px;
+  font-size: 19px;
 }
 h3,
 .h3 {
-  font-size: 13px;
+  font-size: 15px;
 }
 h4,
 .h4 {
-  font-size: 15px;
+  font-size: 13px;
 }
 h5,
 .h5 {
-  font-size: 12px;
+  font-size: 13px;
 }
 h6,
 .h6 {
@@ -7026,7 +7026,7 @@ h2 {
 }
 h1 {
   font-weight: 600;
-  font-size: 21px;
+  font-size: 23px;
   padding: 60px 0 10px 15px;
 }
 h1:first-child {
@@ -7034,16 +7034,30 @@ h1:first-child {
 }
 h2 {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 19px;
   padding: 40px 0 10px 15px;
 }
 h1 + h2 {
   padding: 30px 0 10px 15px;
 }
 h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   margin-top: 20px;
+  margin-bottom: 5px;
+  color: #555555;
+}
+h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #555555;
+}
+h5 {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 15px;
   margin-bottom: 5px;
   color: #555555;
 }
@@ -7066,11 +7080,12 @@ ul {
   float: right;
   font-weight: 600;
   margin-top: 30px;
+  font-size: 15px;
 }
 /* Externe News - Startseite - damit die Überschriften h2 kleiner werden und
 fetter sind - wie die h3 */
 .externe-news-startseite h1 {
-  font-size: 17px;
+  font-size: 19px;
 }
 .externe-news-startseite h2 {
   font-size: 12px;
@@ -7294,15 +7309,15 @@ blockquote > p {
 }
 /* Titel ohne Klappe */
 .titel-h1 {
-  font-size: 21px;
+  font-size: 23px;
   font-weight: 600;
 }
 .titel-h2 {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
 }
 .titel-h3 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
 }
 /* KLAPPE PUNKTE - h1, h2 et. al. wurde bei Klappen abgeschafft
@@ -7313,7 +7328,7 @@ hier kommt die Größe her */
   margin-top: 15px;
 }
 .klappe-h1 > a {
-  font-size: 21px;
+  font-size: 23px;
   font-weight: 600;
 }
 .klappe-h2 {
@@ -7321,7 +7336,7 @@ hier kommt die Größe her */
   margin-bottom: -2px;
 }
 .klappe-h2 > a {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
 }
 .klappe-h3 {
