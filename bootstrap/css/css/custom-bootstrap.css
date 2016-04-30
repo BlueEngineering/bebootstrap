@@ -7149,6 +7149,9 @@ ul.mw-allpages-chunk a {
 td.mw-label {
   text-align: left;
 }
+.mw-edit-section {
+  font-size: 10px;
+}
 ul#filetoc {
   margin-left: -11px;
   width: 102%;
