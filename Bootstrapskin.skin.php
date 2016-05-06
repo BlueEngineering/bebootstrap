@@ -202,7 +202,7 @@ class StrappingTemplate extends BaseTemplate {
                         </ul><!-- end drop down menu -->
       </li>
 
-<li class="dropdown hadron-fw"><a data-description="" href="Hamburg">Hamburg</a>
+<li class="dropdown hadron-fw"><a data-description="" href=":TUHH:Start">Hamburg</a>
 
 <li class="dropdown hadron-fw"><a data-description="" href=":Baukasten:Startseite">Baukasten</a>
 
