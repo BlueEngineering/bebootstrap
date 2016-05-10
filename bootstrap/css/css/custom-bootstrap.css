@@ -7412,6 +7412,12 @@ hier kommt die Größe her */
 .mw-content-ltr ul > li > ul {
   margin: 5px 30px 4px 30px;
 }
+.mw-content-ltr ul > li {
+  margin: 5px 30px 4px 30px;
+}
+.mw-content-ltr ol > li {
+  margin: 5px 30px 4px 30px;
+}
 .mw-content-ltr ol {
   margin: 0 0px 10px 35px;
 }
