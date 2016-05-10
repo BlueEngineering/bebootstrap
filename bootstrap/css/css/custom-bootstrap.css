@@ -7022,6 +7022,9 @@ navbar-toggle {
 .minus-klappe-unten {
   margin-bottom: -25px;
 }
+.minus-klappe-text + p {
+  margin-top: 25px;
+}
 /* type.less */
 h1,
 h2 {
