@@ -499,15 +499,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bootstrap\/css\/css\/custom-bootstrap.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bootstrap\/css\/css\/custom-bootstrap.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/bootstrap\/css\/css\/hadron dropdown menu.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -545,46 +536,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bootstrap\/css\/custom\/custom-bootstrap.less",
 		"outputAbbreviatedPath": "\/bootstrap\/css\/css\/custom-bootstrap.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/bootstrap\/css\/custom\/custom-other.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 1,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bootstrap\/css\/custom\/custom-other.less",
-		"outputAbbreviatedPath": "\/bootstrap\/css\/css\/custom-other.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/bootstrap\/css\/custom\/custom-variables.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 1,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bootstrap\/css\/custom\/custom-variables.less",
-		"outputAbbreviatedPath": "\/bootstrap\/css\/css\/custom-variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2190,6 +2141,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Bootstrapskin.skin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Bootstrapskin.skin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/extensions\/BootStrapSkinContact\/BootStrapSkinContact.alias.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2505,15 +2465,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/screen.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/screen.css",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
