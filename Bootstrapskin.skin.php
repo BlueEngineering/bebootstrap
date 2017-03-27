@@ -187,7 +187,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <ul>
                                         <li><h3 class="title">Projektwerkstatt</h3></li>
                                         <li><a data-description="" href=":TUB:PW:Allgemein">Allgemeine Informationen</a></li>
-                                        <li><a data-description="" href=":TUB:PW:2016_2">Projektwerkstatt WS 2016/2017</a></li>        
+                                        <li><a data-description="" href=":TUB:PW:Aktuell">Aktuelle Vorhaben der Projektwerkstatt</a></li>        
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
