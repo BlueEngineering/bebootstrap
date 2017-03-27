@@ -196,7 +196,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <li><a data-description="" href=":TUB:Seminar:Geschichte">Geschichte des Seminars</a></li>
                                         <li><a data-description="" href=":TUB:Seminar:Allgemeine_Informationen">Allgemeine Informationen</a></li>
                                         <li><a data-description="" href=":TUB:Seminar:2017_1">Seminar SS 22017</a></li>
-                                        <li><a data-description="" href=":TUB:Seminar:Vergangene_Seminare">Vergangene Seminar</a></li>
+                                        <li><a data-description="" href=":TUB:Seminar:Vergangene_Seminare">Vergangene Seminare</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
