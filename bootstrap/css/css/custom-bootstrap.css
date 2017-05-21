@@ -7313,7 +7313,7 @@ blockquote > p {
 }
 /* Irgendwas mit Bilder Images Thumbs */
 .thumbinner {
-  margin: 0 15px 0 0;
+  margin: 0 0 5px 15px;
 }
 .floatright {
   margin: 0px 0px 0 15px;
