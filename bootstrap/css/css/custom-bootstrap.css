@@ -7310,7 +7310,7 @@ blockquote > p {
 }
 /* Irgendwas mit Bilder Images Thumbs */
 .thumbinner {
-  margin: 0;
+  margin: 0 15px 0 0;
 }
 .floatright {
   margin: 0px 0px 0 15px;
@@ -7322,7 +7322,7 @@ blockquote > p {
 }
 .be-news-startseite .thumbinner {
   padding: 2px 0 5px 15px;
-  margin: 0 15px 0 0;
+  margin: 0;
 }
 .externe-news-startseite .thumbinner {
   padding: 5px 0 5px 15px;
