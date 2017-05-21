@@ -6808,10 +6808,6 @@ button.close {
   }
 }
 /* LESS from Bootstrap directly */
-img {
-  width: 100%;
-  height: auto;
-}
 body {
   max-width: 1100px;
   margin: 0 auto;
