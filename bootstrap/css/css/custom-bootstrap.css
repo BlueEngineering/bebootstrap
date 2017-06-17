@@ -7178,6 +7178,12 @@ ul#filetoc {
   width: 102%;
   background-color: #f9f9f9;
 }
+@media (min-width: 768px) {
+  .bs-infobox-kurzbeschreibung {
+    margin-top: -15px;
+    margin-right: -30px;
+  }
+}
 .bs-infobox {
   margin-top: 15px;
 }
@@ -7456,9 +7462,19 @@ hier kommt die Größe her */
 .mw-datatable tr:hover td {
   background-color: #eeeeee;
 }
-/* PRINT SECTION from https://gist.github.com/donnierayjones/6fd9802d992b2d8d6cfd
 @media print {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
     float: left;
   }
   .col-sm-12 {
@@ -7650,7 +7666,6 @@ hier kommt die Größe her */
     display: table-cell !important;
   }
 }
-  ENDE PRINT SECTION */
 .hadron .dropdown a,
 .hadron .dropdown-menu a {
   color: #555555;
