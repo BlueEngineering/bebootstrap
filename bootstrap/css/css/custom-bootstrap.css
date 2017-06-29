@@ -7461,6 +7461,7 @@ hier kommt die Größe her */
 }
 .mw-datatable tr:hover td {
   background-color: #eeeeee;
+  vertical-align: top;
 }
 @media print {
   .col-sm-1,
