@@ -7458,10 +7458,10 @@ hier kommt die Größe her */
 .mw-datatable td,
 .mw-datatable th {
   padding: 0.5em;
+  vertical-align: top;
 }
 .mw-datatable tr:hover td {
   background-color: #eeeeee;
-  vertical-align: top;
 }
 @media print {
   .col-sm-1,
