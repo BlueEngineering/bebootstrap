@@ -185,30 +185,30 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Projektwerkstatt</h3></li>
-                                        <li><a data-description="" href="TUB:PW:Allgemein">Allgemeine Informationen</a></li>
-                                        <li><a data-description="" href="TUB:PW:Aktuell">Aktuelle Vorhaben der Projektwerkstatt</a></li>
-                                        <li><a data-description="" href="TUB:PW:KriOri">Kritische Orientierung</a></li>
+                                        <li><a data-description="" href=":TUB:PW:Allgemein">Allgemeine Informationen</a></li>
+                                        <li><a data-description="" href=":TUB:PW:Aktuell">Aktuelle Vorhaben der Projektwerkstatt</a></li>
+                                        <li><a data-description="" href=":TUB:PW:KriOri">Kritische Orientierung</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-3">
                                         <ul>
                                         <li><h3 class="title">Seminar</h3></li>
                                         <li><a data-description="" href=":TUB:Seminar:Geschichte">Geschichte des Seminars</a></li>
-                                        <li><a data-description="" href="TUB:Seminar:Allgemeine_Informationen">Allgemeine Informationen</a></li>
-                                        <li><a data-description="" href="TUB:Seminar:2017_1">Seminar SS 22017</a></li>
-                                        <li><a data-description="" href="TUB:Seminar:Vergangene_Seminare">Vergangene Seminare</a></li>
+                                        <li><a data-description="" href=":TUB:Seminar:Allgemeine_Informationen">Allgemeine Informationen</a></li>
+                                        <li><a data-description="" href=":TUB:Seminar:2017_1">Seminar SS 22017</a></li>
+                                        <li><a data-description="" href=":TUB:Seminar:Vergangene_Seminare">Vergangene Seminare</a></li>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu -->
-</li>
+      </li>
 
-<li class="dropdown hadron-fw"><a data-description="" href="TUHH:Start">Hamburg</a>
+<li class="dropdown hadron-fw"><a data-description="" href=":TUHH:Start">Hamburg</a>
 
-<li class="dropdown hadron-fw"><a data-description="" href="HSD:Start">Düsseldorf</a>
+<li class="dropdown hadron-fw"><a data-description="" href=":HSD:Start">Düsseldorf</a>
 
-<li class="dropdown hadron-fw"><a data-description="" href="Baukasten:Startseite">Baukasten</a>
+<li class="dropdown hadron-fw"><a data-description="" href=":Baukasten:Startseite">Baukasten</a>
 
 <li class="dropdown hadron-fw"><a data-description="" href="English">English</a>
 
