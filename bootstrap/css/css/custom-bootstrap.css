@@ -7419,6 +7419,9 @@ hier kommt die Größe her */
 .panel-body > h3:nth-child(2) {
   margin-top: 15px;
 }
+.panel-body > p:last-child {
+  margin-bottom: 0px;
+}
 .panel-body {
   padding-top: 0px;
   padding-bottom: 15px;
