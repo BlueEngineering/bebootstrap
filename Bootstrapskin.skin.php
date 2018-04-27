@@ -174,6 +174,8 @@ class StrappingTemplate extends BaseTemplate {
                     <!-- Mega Menu -->
 <li class="dropdown hadron-fw"><a data-description="" href="Über_uns">Über uns</a>
 
+<li class="dropdown hadron-fw"><a data-description="" href="Über_uns">Verein</a>
+
 <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Berlin<b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
