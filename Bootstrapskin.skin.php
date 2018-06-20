@@ -35,7 +35,7 @@ class SkinBootstrap extends SkinTemplate {
     );
   
   //Replace the following with your own google analytic info 
-  
+/*  
   $out->addHeadItem( 'analytics',
             '<script type="text/javascript">'."
   var _gaq = _gaq || [];
@@ -49,7 +49,8 @@ class SkinBootstrap extends SkinTemplate {
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>"
-        );
+	);
+ */
     $out->addHeadItem('responsive', '<meta name="viewport" content="width=device-width, initial-scale=1.0">');
     $out->addModuleScripts( 'skins.bootstrapskin' );
   }
@@ -153,7 +154,7 @@ class StrappingTemplate extends BaseTemplate {
         <a href="http://www.blue-engineering.org/">Blue Engineering</a>
         </div>
         <div class="headersubtitle hidden-xs hidden-sm">
-        <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
+        <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und öCkologischer Verantwortung</a></p>
         </div>
       </div>
       </div>  
