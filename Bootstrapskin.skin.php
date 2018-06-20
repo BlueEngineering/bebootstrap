@@ -154,7 +154,7 @@ class StrappingTemplate extends BaseTemplate {
         <a href="http://www.blue-engineering.org/">Blue Engineering</a>
         </div>
         <div class="headersubtitle hidden-xs hidden-sm">
-        <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und öCkologischer Verantwortung</a></p>
+        <p><a href="http://www.blue-engineering.org/">Ingenieurinnen und Ingenieure mit sozialer und ökologischer Verantwortung</a></p>
         </div>
       </div>
       </div>  
