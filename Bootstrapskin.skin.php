@@ -173,46 +173,119 @@ class StrappingTemplate extends BaseTemplate {
             <div id="defaultmenu" class="navbar-collapse collapse col-md-8 pull-left"> 
                 <ul class="nav navbar-nav">
                     <!-- Mega Menu -->
-<li class="dropdown hadron-fw"><a data-description="" href="Über_uns">Über uns</a>
 
-<li class="dropdown hadron-fw"><a data-description="" href="Verein">Verein</a>
-
-<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Berlin<b class="caret"></b></a>
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Über uns<b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
-                                    <div class="col-sm-3">
-                                        <p>Die Blue Engineering Gruppe an der Technischen Universität Berlin bietet zum einen die Projektwerkstatt an, in der Studierende recht frei und selbstbestimmt Themen bearbeiten</p>
-                                        <p>Zusätzlich wird jedes Semester ein interaktives Seminar mit einer Kapazität von 100 Teilnehmenden angeboten</p>
-                                    </div>
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-4">
+                                        <h3 class="title">Geschichte und Ziele</h3>
                                         <ul>
-                                        <li><h3 class="title">Projektwerkstatt</h3></li>
-                                        <li><a data-description="" href=":TUB:PW:Allgemein">Allgemeine Informationen</a></li>
-                                        <li><a data-description="" href=":TUB:PW:Aktuell">Aktuelle Vorhaben der Projektwerkstatt</a></li>
-                                        <li><a data-description="" href=":TUB:PW:KriOri">Kritische Orientierung</a></li>
+                                        <li style="text-align: justify;">Blue Engineering wurde im Wintersemester 2008/2009 als Idee für ein Referat in einem Seminar an der TU Berlin erarbeitet und vorgestellt. Wunsch der Studierenden war es eine Möglichkeit zu haben, die soziale und ökologische Verantwortung von Ingenieurinnen und Ingenieuren stärker im Studium zu thematisieren, ihr aber vor allem auch darüber hinaus einen Raum zu geben. Seitdem bieten Studierende und Beschäftigte an verschiedenen Hochschulen studierenden-getriebene Seminar an und gestalten darüber hinaus das Campusleben aktiv mit. So setzen sie immer wieder wertvolle Impulse durch Workshops, Ringvorlesungen, Abendveranstaltungen, Exkursionen und dergleichen mehr. Nächstes Ziel ist eine stärkere Verbindung von Studium und Beruf - hierzu wurde ein Verein gegründet um die Alumni besser zu vernetzen.</li>
+                                        <br>
+                                        <li><a data-description="" href=":Über_uns" style="border-bottom: solid 1px #337ab7;"><strong>Weitere Informationen zur Geschichte, zum Grundverständnis und zu den Zielen...</strong></a></li>
                                         </ul>
+                                        <br>
                                     </div>
-                                    <div class="col-sm-3">
+                                    <div class="col-sm-4">
+                                        <h3 class="title">Verein</h3>
                                         <ul>
-                                        <li><h3 class="title">Seminar</h3></li>
-                                        <li><a data-description="" href=":TUB:Seminar:Allgemeine_Informationen">Allgemeine Informationen</a></li>
-                                        <li><a data-description="" href=":TUB:Seminar:2018_2">Wintersemester 2018</a></li>
-                                        <li><a data-description="" href=":TUB:Seminar:Vergangene_Seminare">Vergangene Seminare</a></li>
+                                        <li style="text-align: justify;">Der Blue Engineering Verein zielt darauf ab, die verschiedenen Aktiven an den Hochschulen untereinander zu vernetzen, so dass sie ihre Erfahrungen miteinander teilen und sich gegenseitig bestärken. Zugleich bietet der Verein einen Rahmen, um über die Teilnahme an den Blue Engineering Seminaren hinaus miteinander in Kontakt zu bleiben und so auch das eigene Berufsfeld gemeinsam sozialer und ökologsischer zu gestalten.</li>
+                                        <br>
+                                        <li style="text-align: justify;">Der Zweck des Vereins ist es, Bildung und Forschung im Bereich einer sozial und ökologisch verantwortungsvollen Technik- und Gesellschaftsgestaltung zu fördern. Dafür sollen unter anderem verstärkt soziale, ökologische und ethische Aspekte der Verantwortung in die Lehre integriert werden. Der Satzungszweck wird insbesondere verwirklicht durch Seminare, Vorträge oder vergleichbare Veranstaltungen innerhalb oder außerhalb der Hochschulen sowie durch Publikationen.</li>
+                                        <br>
+                                        <li><a data-description="" href=":Verein" style="border-bottom: solid 1px #337ab7;"><strong>Weitere Informationen zum Blue Engineering Verein...</strong></a></li>
+                                        </ul>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h3 class="title">Seminar</h3>
+                                        <ul>
+                                        <li style="text-align: justify;">Das interdisziplinär ausgerichtete Blue Engineering-Seminar bietet angehenden Ingenieur_innen einen Blick über den Tellerrand und eine (inter-)aktive Auseinandersetzung mit ihrer sozialen und ökologischen Verantwortung. Sie erhalten so Gelegenheit sich ihrer eigenen Werte bewusst zu werden und diese mit anderen zu reflektieren. Zudem wird der Lehr-/Lernprozess im wesentlichen auf die Studierenden verlagert, so dass sie die Verantwortung für ein gutes Gelingen des Seminars übernehmen und zugleich bestimmen sie so dessen zukünftige Entwicklung mit.</li>
+                                        <br>
+                                        <li style="text-align: justify;">Das Seminar ist modular aufgebaut und kann so leicht an die verschiedenen Rahmenbedingungen von Hochschulen angepasst werden.</li>
+                                        <br>
+                                        <li><a data-description="" href=":TUB:Seminar:Allgemeine_Informationen" style="border-bottom: solid 1px #337ab7;"><strong>Weitere Informationen zur Struktur und zum Konzept des Blue Engineering Seminars...</strong></a></li>
+                                        </ul>
+                                        <br>
+                                </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu -->
+</li>
+
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Seminare vor Ort<b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h3 class="title">Allgemeine Informationen</h3>
+                                        <ul>
+                                        <li style="text-align: justify;">Das interdisziplinär ausgerichtete Blue Engineering-Seminar bietet angehenden Ingenieur_innen einen Blick über den Tellerrand und eine (inter-)aktive Auseinandersetzung mit ihrer sozialen und ökologischen Verantwortung. Sie erhalten so Gelegenheit sich ihrer eigenen Werte bewusst zu werden und diese mit anderen zu reflektieren. Zudem wird der Lehr-/Lernprozess im wesentlichen auf die Studierenden verlagert, so dass sie die Verantwortung für ein gutes Gelingen des Seminars übernehmen und zugleich bestimmen sie so dessen zukünftige Entwicklung mit.</li>
+                                        <br>
+                                        <li style="text-align: justify;">Das Seminar ist modular aufgebaut und kann so leicht an die verschiedenen Rahmenbedingungen von Hochschulen angepasst werden.</li>
+                                        <br>
+                                        <li><a data-description="" href=":TUB:Seminar:Allgemeine_Informationen" style="border-bottom: solid 1px #337ab7;"><strong>Weitere Informationen zur Struktur und zum Konzept des Blue Engineering Seminars...</strong></a></li>
+                                        </ul>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h3 class="title">Seminare vor Ort</h3>
+                                        <div class="col-sm-6">
+                                        <ul>
+                                        <li><a data-description="" href=":TUB:Seminar:Aktuelles_Semester" style="border-bottom: solid 1px #337ab7;"><strong>TU Berlin</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":HTW-B:Start" style="border-bottom: solid 1px #337ab7;"><strong>HTW Berlin</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":TUD:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Dresden</strong></a></li>
+                                        <br>
+                                        </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                        <ul>
+                                        <li><a data-description="" href=":HSD:Start" style="border-bottom: solid 1px #337ab7;"><strong>HS Düsseldorf</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":TUHH:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Hamburg</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":HSRW:Start"style="border-bottom: solid 1px #337ab7;"><strong>HS Ruhr West</strong></a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                </div><!-- end row -->
+                            </li><!-- end grid demo -->
+                        </ul><!-- end drop down menu --></li>
+
+<li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Baukasten<b class="caret"></b></a>
+                        <ul class="dropdown-menu fullwidth">
+                            <li class="hadron-content withdesc">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h3 class="title">Bausteine</h3>
+                                        <ul>
+                                        <li style="text-align: justify;">Bausteine sind das Kernelement des Blue Engineering-Seminars. Diese inhaltlich und didaktisch gut dokumentierte 30- bis 90-minütige Lern-/Lehreinheiten verlagern sowohl den Lern- als auch den Lehrprozess innerhalb eines Seminars weitestgehend auf die Teilnehmenden. Bausteine schaffen die Balance zwischen Faktenvermittlung und Orientierung/Reflexion/Positionierung der Teilnehmenden zum Beispiel durch simulierten Gerichtsverhandlungen, Talkshows, Stationenlernen, aber auch durch multimediale/multisensuale Wissensspeicher, die ein Thema aus unterschiedlichen Perspektiven aufbereiten sowie durch spielerische Formate, wie z.B. ein Kraftwerksquartett, Mülltrennung - ein Kinderspiel! oder ein Bilderbuch zum Thema Zeitwohlstand. Weitere Themen sind zum Beispiel Peak Everything, Mobilität ohne Öl, Ethikkodizees, der Rebound-Effekt und Gender/Diversity. Mittlerweile bestehen über 150 solcher Bausteine, die regelmäßig in den verschiedenen Blue Engineering Seminaren und außerhalb zum Einsatz kommen.</li>
+                                        <br>
+                                        <li><a data-description="" href=":Baukasten:Startseite" style="border-bottom: solid 1px #337ab7;"><strong>Baukasten mit allen 150 Bausteinen...</strong></a></li>
+                                        </ul>
+                                        <br>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h3 class="title">Baukasten</h3>
+                                        <ul>
+                                        <li><a data-description="" href=":Baukasten:TUB:Grundbausteine" style="border-bottom: solid 1px #337ab7;"><strong>Baukasten mit allen 150 Bausteinen</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":TUB:Seminar:Aktuelles_Semester" style="border-bottom: solid 1px #337ab7;"><strong>Grundbausteine an der TU Berlin</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":Baukasten:Gute_Bausteine" style="border-bottom: solid 1px #337ab7;"><strong>Auswahl an besonders guten Bausteinen</strong></a></li>
+                                        <br>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
                             </li><!-- end grid demo -->
-                        </ul><!-- end drop down menu -->
-      </li>
-
-<li class="dropdown hadron-fw"><a data-description="" href=":TUHH:Start">Hamburg</a>
-
-<li class="dropdown hadron-fw"><a data-description="" href=":HSD:Start">Düsseldorf</a>
-
-<li class="dropdown hadron-fw"><a data-description="" href=":Baukasten:Startseite">Baukasten</a>
+                        </ul><!-- end drop down menu --></li>
 
 <li class="dropdown hadron-fw"><a data-description="" href="English">English</a>
+
+<li class="dropdown hadron-fw"><a data-description="" href=":Blue_Engineering:Impressum">Kontakt</a>
 
 <li class="dropdown hadron-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">System <b class="caret"></b></a>
                         <ul class="dropdown-menu fullwidth">
