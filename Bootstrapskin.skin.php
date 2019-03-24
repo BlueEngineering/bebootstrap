@@ -237,7 +237,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":HTW-B:Start" style="border-bottom: solid 1px #337ab7;"><strong>HTW Berlin</strong></a></li>
                                         <br>
-                                        <li><a data-description="" href=":Teilnehmende:TUD:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Dresden</strong></a></li>
+                                        <li><a data-description="" href=":TUD:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Dresden</strong></a></li>
                                         <br>
                                         </ul>
                                         </div>
@@ -247,7 +247,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":TUHH:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Hamburg</strong></a></li>
                                         <br>
-                                        <li><a data-description="" href=":Teilnehmende:HSRW:Start"style="border-bottom: solid 1px #337ab7;"><strong>HS Ruhr West</strong></a></li>
+                                        <li><a data-description="" href=":HSRW:Start"style="border-bottom: solid 1px #337ab7;"><strong>HS Ruhr West</strong></a></li>
                                         </ul>
                                       </div>
                                     </div>
