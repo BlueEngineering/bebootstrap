@@ -271,9 +271,9 @@ class StrappingTemplate extends BaseTemplate {
                                     <div class="col-sm-4">
                                         <h3 class="title">Baukasten</h3>
                                         <ul>
-                                        <li><a data-description="" href=":Baukasten:TUB:Grundbausteine" style="border-bottom: solid 1px #337ab7;"><strong>Baukasten mit allen 150 Bausteinen</strong></a></li>
+                                        <li><a data-description="" href=":Baukasten:Startseite" style="border-bottom: solid 1px #337ab7;"><strong>Baukasten mit allen 150 Bausteinen</strong></a></li>
                                         <br>
-                                        <li><a data-description="" href=":TUB:Seminar:Aktuelles_Semester" style="border-bottom: solid 1px #337ab7;"><strong>Grundbausteine an der TU Berlin</strong></a></li>
+                                        <li><a data-description="" href=":Baukasten:TUB:Grundbausteine" style="border-bottom: solid 1px #337ab7;"><strong>Grundbausteine an der TU Berlin</strong></a></li>
                                         <br>
                                         <li><a data-description="" href=":Baukasten:Gute_Bausteine" style="border-bottom: solid 1px #337ab7;"><strong>Auswahl an besonders guten Bausteinen</strong></a></li>
                                         <br>
