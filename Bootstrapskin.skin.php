@@ -283,7 +283,7 @@ class StrappingTemplate extends BaseTemplate {
                             </li><!-- end grid demo -->
                         </ul><!-- end drop down menu --></li>
 
-<li class="dropdown hadron-fw"><a data-description="" href=":RAD-AB-Ausstellung:Startseite">RAD AB - Ausstellung</a>
+<li class="dropdown hadron-fw"><a data-description="" href=":RAD-AB-Schraube-Locker-Ausstellung:Startseite">RAD AB - Ausstellung</a>
 
 <li class="dropdown hadron-fw"><a data-description="" href="English">English</a>
 
