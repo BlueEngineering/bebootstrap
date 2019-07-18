@@ -218,7 +218,7 @@ class StrappingTemplate extends BaseTemplate {
                         <ul class="dropdown-menu fullwidth">
                             <li class="hadron-content withdesc">
                                 <div class="row">
-                                    <div class="col-sm-8">
+                                    <div class="col-sm-7">
                                         <h3 class="title">Allgemeine Informationen</h3>
                                         <ul>
                                         <li style="text-align: justify;">Das interdisziplinär ausgerichtete Blue Engineering-Seminar bietet angehenden Ingenieur_innen einen Blick über den Tellerrand und eine (inter-)aktive Auseinandersetzung mit ihrer sozialen und ökologischen Verantwortung. Sie erhalten so Gelegenheit sich ihrer eigenen Werte bewusst zu werden und diese mit anderen zu reflektieren. Zudem wird der Lehr-/Lernprozess im wesentlichen auf die Studierenden verlagert, so dass sie die Verantwortung für ein gutes Gelingen des Seminars übernehmen und zugleich bestimmen sie so dessen zukünftige Entwicklung mit.</li>
@@ -229,7 +229,7 @@ class StrappingTemplate extends BaseTemplate {
                                         </ul>
                                         <br>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-sm-5">
                                         <h3 class="title">Seminare vor Ort</h3>
                                         <div class="col-sm-6">
                                         <ul>
@@ -237,8 +237,10 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":HTW-B:Start" style="border-bottom: solid 1px #337ab7;"><strong>HTW Berlin</strong></a></li>
                                         <br>
-                                        <li><a data-description="" href=":TUD:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Dresden</strong></a></li>
+                                        <li><a data-description="" href=":SU:Start" style="border-bottom: solid 1px #337ab7;"><strong>Summer School Berlin</strong></a></li>
                                         <br>
+                                        <li><a data-description="" href=":TUD:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Dresden</strong></a></li>
+ 										<br>                                      
                                         </ul>
                                         </div>
                                         <div class="col-sm-6">
