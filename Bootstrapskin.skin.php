@@ -249,6 +249,8 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":TUHH:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Hamburg</strong></a></li>
                                         <br>
+                                        <li><a data-description="" href=":TH-KOELN:Start" style="border-bottom: solid 1px #337ab7;"><strong>TH Köln</strong></a></li>
+                                        <br>
                                         <li><a data-description="" href=":HSRW:Start"style="border-bottom: solid 1px #337ab7;"><strong>HS Ruhr West</strong></a></li>
                                         </ul>
                                       </div>
