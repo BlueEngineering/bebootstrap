@@ -279,7 +279,9 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":Baukasten:TUB:Grundbausteine" style="border-bottom: solid 1px #337ab7;"><strong>Grundbausteine an der TU Berlin</strong></a></li>
                                         <br>
-                                        <li><a data-description="" href=":Baukasten:Gute_Bausteine" style="border-bottom: solid 1px #337ab7;"><strong>Auswahl an besonders guten Bausteinen</strong></a></li>
+                                        <li><a data-description="" href=":Baukasten:Gute_Bausteine" style="border-bottom: solid 1px #337ab7;"><strong>Auswahl an besonders guten, analogen Bausteinen</strong></a></li>
+                                        <br>
+					<li><a data-description="" href=":Baukasten:Digitales-Starter-Kit" style="border-bottom: solid 1px #337ab7;"><strong>Digitales Starter-Kit</strong></a></li>
                                         <br>
                                         </ul>
                                     </div>
