@@ -287,6 +287,8 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
 					<li><a data-description="" href=":Baukasten:Digitales-Starter-Kit" style="border-bottom: solid 1px #337ab7;"><strong>Digitales Starter-Kit</strong></a></li>
                                         <br>
+					<li><a data-description="" href=":Baukasten:EN:Digital-Starter-Kit" style="border-bottom: solid 1px #337ab7;"><strong>Digital Starter-Kit in English</strong></a></li>
+                                        <br>
                                         </ul>
                                     </div>
                                 </div><!-- end row -->
