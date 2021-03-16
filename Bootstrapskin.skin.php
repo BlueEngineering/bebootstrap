@@ -255,9 +255,9 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":Uni-Paderborn:Start" style="border-bottom: solid 1px #337ab7;"><strong>Universität Paderborn</strong></a></li>
                                         <br>
-                                        <li><a data-description="" href=":HSRW:Start"style="border-bottom: solid 1px #337ab7;"><strong>HS Ruhr West</strong></a></li>
-                                        <br>
                                         <li><a data-description="" href=":Uni-Rostock:Start"style="border-bottom: solid 1px #337ab7;"><strong>Universität Rostock</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":HSRW:Start"style="border-bottom: solid 1px #337ab7;"><strong>HS Ruhr West</strong></a></li>
                                         <br>
                                         <li><a data-description="" href=":Uni-Stuttgart:Start"style="border-bottom: solid 1px #337ab7;"><strong>Universität Stuttgart</strong></a></li>
                                         </ul>
