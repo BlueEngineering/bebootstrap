@@ -243,19 +243,23 @@ class StrappingTemplate extends BaseTemplate {
  										                    <br>
                                         <li><a data-description="" href=":HSD:Start" style="border-bottom: solid 1px #337ab7;"><strong>HS Düsseldorf</strong></a></li>
                                         <br>
+                                        <li><a data-description="" href=":HAW-HH:Start" style="border-bottom: solid 1px #337ab7;"><strong>HAW Hamburg</strong></a></li>
+                                        <br>
                                         </ul>
                                         </div>
                                         <div class="col-sm-6">
                                         <ul>
-                                        <li><a data-description="" href=":HAW-HH:Start" style="border-bottom: solid 1px #337ab7;"><strong>HAW Hamburg</strong></a></li>
-                                        <br>
                                         <li><a data-description="" href=":TUHH:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Hamburg</strong></a></li>
                                         <br>
                                         <li><a data-description="" href=":TH-KOELN:Start" style="border-bottom: solid 1px #337ab7;"><strong>TH Köln</strong></a></li>
                                         <br>
+                                        <li><a data-description="" href=":Uni-Paderborn:Start" style="border-bottom: solid 1px #337ab7;"><strong>Universität Paderborn</strong></a></li>
+                                        <br>
                                         <li><a data-description="" href=":HSRW:Start"style="border-bottom: solid 1px #337ab7;"><strong>HS Ruhr West</strong></a></li>
                                         <br>
-                                                                                <li><a data-description="" href=":Uni-Stuttgart:Start"style="border-bottom: solid 1px #337ab7;"><strong>Universität Stuttgart</strong></a></li>
+                                        <li><a data-description="" href=":Uni-Rostock:Start"style="border-bottom: solid 1px #337ab7;"><strong>Universität Rostock</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":Uni-Stuttgart:Start"style="border-bottom: solid 1px #337ab7;"><strong>Universität Stuttgart</strong></a></li>
                                         </ul>
                                       </div>
                                     </div>
