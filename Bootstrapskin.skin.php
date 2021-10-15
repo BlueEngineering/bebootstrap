@@ -239,18 +239,20 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":SU:Start" style="border-bottom: solid 1px #337ab7;"><strong>Summer School Berlin</strong></a></li>
                                         <br>
+                                        <li><a data-description="" href=":TU_Delft:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Delft</strong></a></li>
+                                        <br>
                                         <li><a data-description="" href=":TUD:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Dresden</strong></a></li>
- 										                    <br>
+                                        <br>
                                         <li><a data-description="" href=":HSD:Start" style="border-bottom: solid 1px #337ab7;"><strong>HS Düsseldorf</strong></a></li>
                                         <br>
                                         <li><a data-description="" href=":FAU_Nürnberg:Start" style="border-bottom: solid 1px #337ab7;"><strong>FAU Erlangen-Nürnberg</strong></a></li>
-                                        <br>
-                                        <li><a data-description="" href=":HAW-HH:Start" style="border-bottom: solid 1px #337ab7;"><strong>HAW Hamburg</strong></a></li>
                                         <br>
                                         </ul>
                                         </div>
                                         <div class="col-sm-6">
                                         <ul>
+                                        <li><a data-description="" href=":HAW-HH:Start" style="border-bottom: solid 1px #337ab7;"><strong>HAW Hamburg</strong></a></li>
+                                        <br>
                                         <li><a data-description="" href=":TUHH:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Hamburg</strong></a></li>
                                         <br>
                                         <li><a data-description="" href=":HAWK-Hildesheim:Startseite" style="border-bottom: solid 1px #337ab7;"><strong>HAWK Hildesheim/Holzminden/Göttingen</strong></a></li>
