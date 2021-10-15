@@ -255,7 +255,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <br>
                                         <li><a data-description="" href=":TUHH:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Hamburg</strong></a></li>
                                         <br>
-                                        <li><a data-description="" href=":HAWK-Hildesheim:Startseite" style="border-bottom: solid 1px #337ab7;"><strong>HAWK Hildesheim/Holzminden/Göttingen</strong></a></li>
+                                        <li><a data-description="" href=":HAWK-Hildesheim:Startseite" style="border-bottom: solid 1px #337ab7;"><strong>HAWK Hildesheim - Holzminden - Göttingen</strong></a></li>
                                         <br>
                                         <li><a data-description="" href=":TH-KOELN:Start" style="border-bottom: solid 1px #337ab7;"><strong>TH Köln</strong></a></li>
                                         <br>
