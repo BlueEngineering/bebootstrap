@@ -183,7 +183,7 @@ class StrappingTemplate extends BaseTemplate {
                                         <ul>
                                         <li style="text-align: justify;">Blue Engineering wurde im Wintersemester 2008/2009 als Idee für ein Referat in einem Seminar an der TU Berlin erarbeitet und vorgestellt. Wunsch der Studierenden war es eine Möglichkeit zu haben, die soziale und ökologische Verantwortung von Ingenieurinnen und Ingenieuren stärker im Studium zu thematisieren, ihr aber vor allem auch darüber hinaus einen Raum zu geben. Seitdem bieten Studierende und Beschäftigte an verschiedenen Hochschulen studierenden-getriebene Seminar an und gestalten darüber hinaus das Campusleben aktiv mit. So setzen sie immer wieder wertvolle Impulse durch Workshops, Ringvorlesungen, Abendveranstaltungen, Exkursionen und dergleichen mehr. Nächstes Ziel ist eine stärkere Verbindung von Studium und Beruf - hierzu wurde ein Verein gegründet um die Alumni besser zu vernetzen.</li>
                                         <br>
-                                        <li><a data-description="" href=":Über_uns" style="border-bottom: solid 1px #337ab7;"><strong>Weitere Information zur Geschichte, zum Grundverständnis und zu den Zielen...</strong></a></li>
+                                        <li><a data-description="" href=":Über_uns" style="border-bottom: solid 1px #337ab7;"><strong>Weitere Informationen zur Geschichte, zum Grundverständnis und zu den Zielen...</strong></a></li>
                                         </ul>
                                         <br>
                                     </div>
@@ -243,6 +243,8 @@ class StrappingTemplate extends BaseTemplate {
  										                    <br>
                                         <li><a data-description="" href=":HSD:Start" style="border-bottom: solid 1px #337ab7;"><strong>HS Düsseldorf</strong></a></li>
                                         <br>
+                                        <li><a data-description="" href=":FAU_Nürnberg:Start" style="border-bottom: solid 1px #337ab7;"><strong>FAU Erlangen-Nürnberg</strong></a></li>
+                                        <br>
                                         <li><a data-description="" href=":HAW-HH:Start" style="border-bottom: solid 1px #337ab7;"><strong>HAW Hamburg</strong></a></li>
                                         <br>
                                         </ul>
@@ -250,6 +252,8 @@ class StrappingTemplate extends BaseTemplate {
                                         <div class="col-sm-6">
                                         <ul>
                                         <li><a data-description="" href=":TUHH:Start" style="border-bottom: solid 1px #337ab7;"><strong>TU Hamburg</strong></a></li>
+                                        <br>
+                                        <li><a data-description="" href=":HAWK-Hildesheim:Startseite" style="border-bottom: solid 1px #337ab7;"><strong>HAWK Hildesheim/Holzminden/Göttingen</strong></a></li>
                                         <br>
                                         <li><a data-description="" href=":TH-KOELN:Start" style="border-bottom: solid 1px #337ab7;"><strong>TH Köln</strong></a></li>
                                         <br>
